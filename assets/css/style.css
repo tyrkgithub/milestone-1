@@ -100,3 +100,18 @@ a {
     justify-content: center; /* horizontal */
     align-items: center;     /* vertical */
 }
+
+.hero {
+    height: 500px;
+background-image: url("../images/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo {
+    width: 600px;
+}
