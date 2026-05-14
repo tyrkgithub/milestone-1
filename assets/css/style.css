@@ -1,0 +1,102 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
+}
+
+/* Global styles */
+
+body {
+    font-family: var(--primary-font);
+    background-color: #322926;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+
+    */
+
+.navbar1 {
+  background-color: red !important;
+  height: 200px;
+  border: 10px solid yellow;
+}
+
+.logo {
+  width: 50px;
+}
+
+.footer1{
+    color: aliceblue;
+    height: 175px;
+    background-color: #322926;
+    border-bottom: aliceblue solid 1px;
+}
+
+.footer2{
+    color: aliceblue !important;
+    height: 75px;
+    background-color: #322926;
+}
+
+.socailsListOption {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: aliceblue;
+    border-radius: 50%;
+
+    margin: 5px;
+}
+
+.fa-brands {
+    color: #322926;
+    font-size: 20px;
+}
+
+.footerLogo{
+    width: 100px !important;
+}
+
+.footerEmail,
+.yorkePages{
+    text-decoration: none !important;
+    color: aliceblue;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+
+.copyrightLogo{
+    padding-right: 4px;
+}
+
+.footer1 .col-12,
+.footer2 .col-12 {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+}
