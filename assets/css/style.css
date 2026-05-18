@@ -11,11 +11,25 @@
     --highlight-color-light: #7a9fc2; /* light blue */
 }
 
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 /* Global styles */
 
 body {
     font-family: var(--primary-font);
-    background-color: #322926;
+    background-color: #272322;
 }
 
 h1,
@@ -45,14 +59,14 @@ h3 {
 .footer1{
     color: aliceblue;
     height: 175px;
-    background-color: #322926;
+    background-color: #272322;
     border-bottom: aliceblue solid 1px;
 }
 
 .footer2{
     color: aliceblue !important;
     height: 75px;
-    background-color: #322926;
+    background-color: #272322;
 }
 
 .socailsListOption {
@@ -114,4 +128,125 @@ background-image: url("../images/hero-bg.png");
 
 .hero-logo {
     width: 600px;
+}
+
+
+/*Mission*/
+
+.mission{
+    text-align: center;
+    height: 500px;
+}
+
+.mission-div{
+    padding: 100px;
+}
+
+.mission-h2 {
+    font-size: 70px;
+font-family: "Bebas Neue", sans-serif;
+    color: white;
+    outline: black 1px;
+    text-shadow: rgba(204,0,255,0.9) 0px 0px 18px;
+}
+
+.mission-p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.mission-button{
+     background-color: rgba(204,0,255,0.9);
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+
+    border: none; /* removes bootstrap/button border */
+    border-radius: 4px;
+
+    padding: 8px 16px;
+
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #272322;
+  margin: 15% auto;
+  padding: 40px 30px 30px 30px; /* extra top padding */
+  border: 1px solid #888;
+  width: 80%;
+  color: white;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Media Queries*/
+
+
+@media screen and (max-width: 764px) {
+
+    .hero-logo{
+        width: 400px;
+    }
+
+    .footer1 {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer1 .col-12 {
+        padding-bottom: 20px;
+    }
+
+    .socailsList{
+        padding: 0;
+    }
+
+    .footer2{
+        padding-top: 10px;
+    }
+
+    .footer2 .col-12 {
+        padding-bottom: 10px;
+    }
+
 }

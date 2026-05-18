@@ -18,6 +18,13 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -63,19 +70,112 @@
     </header>
 
     <main>
-        <section class="hero">
-             <img src="assets/images/hero-logo.png" alt="Logo" class="hero-logo">
+      <section class="hero">
+        <img src="assets/images/hero-logo.png" alt="Logo" class="hero-logo" />
+      </section>
 
-        </section>
+      <section class="mission">
+        <div class="mission-div">
+          <h2 class="mission-h2">Mission</h2>
+          <p class="mission-p">
+            NoMoreAllMaleLineUps addresses inequalities within the music scene,
+            of men (usually those who are cis, straight and white) being given
+            opportunities over non-men.
+          </p>
+
+          <button id="mission-button" class="mission-button">
+            Mission Statement
+          </button>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+              No More All Male Lineups is a multigenre collective of female and
+              non-binary DJs and live musicians, challenging gender imbalances
+              across dance music spaces. Formed in response to the continued
+              dominance of all-male lineups in Bristol and the UK more broadly,
+              the collective organises events, takeovers, education and advocacy
+              to create more inclusive dancefloors based on the understanding
+              that a more diverse lineup produces more exciting musical
+              journeys, richer experiences on the dance floor, and is more
+              reflective of the community it is built for and built from.
+            </p>
+            <p>
+              Since its inception, No More All Male Lineups has curated and
+              delivered fully inclusive club nights at iconic Bristol venues
+              including Basement 45 and Loco Klub, packing out multi-room venues
+              with femme and non-binary talent. This ethos extends beyond just
+              music programming. They have collaborated with other non-male-led
+              collectives such as Full Spectrum, WINK and Haven, and outsourced
+              only to non-men, including for photographers, artists, stalls and
+              décor; to ensure representation is built into every layer of an
+              event, not treated as an afterthought.
+            </p>
+            <p>
+              Musically, No More All Male Lineups spans a broad and dynamic
+              sound. The collective draws from a broad roster of DJs spanning
+              house, disco, garage and 140, through drum & bass and jungle, up
+              to techno, tek and donk, allowing lineups to be carefully shaped
+              around the desired vibe, time slot and identity of each space.
+              Whether delivering tightly focused genre takeovers or more
+              eclectic journeys that build from deeper, chiller sounds into
+              heavier energy, the collective works closely with promoters and
+              programmers to ensure each booking fits seamlessly.
+            </p>
+            <p>
+              Alongside grassroots club nights, No More All Male Lineups has
+              delivered takeovers across festivals and large-scale venues. These
+              include appearances at major festivals such as Boardmasters; club
+              series such as Cirque du Soul during Motion’s closing programme,
+              and showcases with collectives including Space Camp, Kraft Tek,
+              SIS:DEM.  We have taken over radio shows such as Void Radio, 85
+              Collective, SWU, Red Rebel and Bristol Community Radio. The
+              collective has also supported high-profile artists at major
+              venues, including Fish56Octagon at Document’s opening party, and
+              holds ongoing residencies at well-loved Bristol venues such as the
+              Rathouse, Basement 45, Love Inn and Café Kino.
+            </p>
+            <p>
+              A core part of the collective’s philosophy is skill-sharing and
+              long-term artist development. We regularly run open decks sessions
+              and music production workshops aimed at upskilling femme and
+              non-binary artists, and lowering barriers to entry within DJing
+              and production. They have also organised pay-what-you-can press
+              photoshoots, enabling FLINTA DJs to access professional promo
+              material that can otherwise be financially or logistically
+              inaccessible. Beyond music, the collective has delivered talks and
+              workshops on gender diversity in dance music, including sessions
+              at festivals such as Nowadaze, and has contributed to panels and
+              discussions for events such as International Women’s Day. No More
+              All Male Lineups is also active across radio and media, having
+              been interviewed by platforms such as Bristol247 to discuss gender
+              representation, community organising and structural change within
+              the dance music industry.
+            </p>
+            <p>
+              Across all of their work – from club nights and festivals to
+              workshops, radio and advocacy — No More All Male Lineups centre
+              community and collaboration, aiming not only to showcase
+              underrepresented talent, but also to demonstrate that inclusive,
+              representative lineups are creatively stronger, socially
+              necessary, and essential to the future of dance music culture.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-
 
     <footer class="mt-auto footer">
       <div class="row justify-content-center">
         <!-- Footer Top -->
         <div class="row footer1">
           <!-- Footer Socials -->
-          <div class="col-12 col-md-4 text-center">
+          <!-- Footer Socials -->
+          <div class="col-12 col-md-4 text-center order-3 order-md-1">
             <ul class="socailsList">
               <li class="socailsListOption">
                 <i class="fa-brands fa-instagram"></i>
@@ -93,7 +193,8 @@
           </div>
 
           <!-- Footer Logo -->
-          <div class="col-12 col-md-4 text-center">
+          <!-- Footer Logo -->
+          <div class="col-12 col-md-4 text-center order-1 order-md-2">
             <img
               src="assets/images/MNAMLU_logo_nobg_white.png"
               alt="logo"
@@ -102,7 +203,8 @@
           </div>
 
           <!-- Footer Email -->
-          <div class="col-12 col-md-4 text-center">
+          <!-- Footer Email -->
+          <div class="col-12 col-md-4 text-center order-2 order-md-3">
             <a href="mailto:nomoreallmalelineups@gmail.com" class="footerEmail"
               >nomoreallmalelineups@gmail.com</a
             >
@@ -146,5 +248,34 @@
       src="https://kit.fontawesome.com/aa9af45995.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Modal Script-->
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("mission-button");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on the button, open the modal
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
   </body>
 </html>
