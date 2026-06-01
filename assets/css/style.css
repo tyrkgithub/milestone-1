@@ -444,6 +444,277 @@ a {
   display: none;
 }
 
+/* ----- RESIDENTS PAGE -----*/
+
+.email-section {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #272322;
+}
+
+.email-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.email-h2 {
+  font-size: 70px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+
+  text-shadow: rgba(204, 0, 255, 0.9) 0px 0px 18px;
+  -webkit-text-stroke: 1px rgba(204, 0, 255, 0.9);
+
+  margin: 0;
+}
+
+.email-p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  color: white;
+  max-width: 500px;
+  margin: 0;
+}
+
+.email-email {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 24px;
+  color: rgba(204, 0, 255, 0.9);
+  margin: 10px 0;
+  word-break: break-word;
+}
+
+.email-button {
+  background-color: rgba(204, 0, 255, 0.9);
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 4px;
+
+  padding: 8px 16px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.email-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.email-copy-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.copy-button {
+  background-color: rgba(204, 0, 255, 0.9);
+  color: white;
+  border: none;
+  border-radius: 4px;
+
+  width: 35px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  opacity: 0.9;
+}
+
+.email-email {
+  margin: 0;
+}
+
+
+.socials-section {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #272322; /* matches your body/footer */
+}
+
+.socials-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.socials-h2 {
+  font-size: 70px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+
+  text-shadow: rgba(204, 0, 255, 0.9) 0px 0px 18px;
+  -webkit-text-stroke: 1px rgba(204, 0, 255, 0.9);
+
+  margin: 0;
+}
+
+.socials-p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  max-width: 500px;
+}
+
+/* Reuse + enhance your existing socials list */
+
+
+.socailsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 10px 0 0 0;
+  gap: 12px;
+}
+
+.socailsListOption {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 45px;
+  height: 45px;
+
+  background-color: aliceblue;
+  border-radius: 50%;
+
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.socailsListOption:hover {
+  transform: translateY(-3px);
+  background-color: rgba(204, 0, 255, 0.9);
+}
+
+.socailsListOption:hover i {
+  color: white;
+}
+
+.fa-brands {
+  color: #322926;
+  font-size: 20px;
+}
+
+.youtube {
+  height: 300px;
+  text-align: center;
+  background-image: url("../images/youtube.png"); /* optional */
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube-info {
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.youtube-h2 {
+  font-size: 70px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+
+  text-shadow: rgba(255, 0, 0, 0.9) 0px 0px 18px;
+  -webkit-text-stroke: 1px rgba(255, 0, 0, 0.9);
+  margin: 0;
+}
+
+.youtube-p {
+  color: rgba(255, 0, 0, 0.9);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+.youtube-button {
+  background-color: rgba(255, 0, 0, 0.9);
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 4px;
+
+  padding: 8px 16px;
+
+  display: inline-block;
+}
+
+.youtube-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  gap: 25px;
+  padding: 60px 20px;
+}
+
+.youtube-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Responsive iframe wrapper */
+.youtube-video {
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Make iframe responsive */
+.youtube-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: none;
+}
+
+
+
+
 /* Media Queries*/
 
 @media screen and (max-width: 1120px) {
