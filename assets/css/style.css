@@ -491,26 +491,7 @@ a {
   word-break: break-word;
 }
 
-.email-button {
-  background-color: rgba(204, 0, 255, 0.9);
-  color: white;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
 
-  border: none;
-  border-radius: 4px;
-
-  padding: 8px 16px;
-
-  cursor: pointer;
-
-  transition: 0.2s ease;
-}
-
-.email-button:hover {
-  transform: translateY(-2px);
-  opacity: 0.9;
-}
 
 .email-copy-row {
   display: flex;
