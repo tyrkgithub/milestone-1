@@ -20,23 +20,23 @@
     />
 
     <!--Fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"
-  rel="stylesheet"
-/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- Custom CSS -->
-<link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
   <body class="d-flex flex-column min-vh-100">
     <header>
-    <!-- Navigation -->
+      <!-- Navigation -->
 
- <nav class="navbar navbar1 navbar-expand-lg" data-bs-theme="dark">
+      <nav class="navbar navbar1 navbar-expand-lg" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img
@@ -58,21 +58,19 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link" aria-current="page" href="index.html"
-                >HOME</a
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link active" aria-current="page" href="events.html"
+                >EVENTS</a
               >
-              <a class="nav-link active" aria-current="page" href="events.html">EVENTS</a>
               <a class="nav-link" href="residents.html">RESIDENTS</a>
               <a class="nav-link" href="contact.html">CONTACT</a>
             </div>
           </div>
         </div>
       </nav>
-</header>
-
+    </header>
 
     <main>
-
       <!-- Hero -->
       <section class="hero">
         <img src="assets/images/hero-logo.png" alt="Logo" class="hero-logo" />
@@ -84,102 +82,305 @@
           <p class="col-12 newsletter-p">
             Check out our latest events, upcoming takeovers and next workshops!
           </p>
-
-         
         </div>
       </section>
+
       <!-- Events -->
       <section class="events-section">
         <div class="events-page-wrapper">
-<div class="row events-div justify-content-center align-items-center">
-              <div class="col-12 col-lg-6 events-writing">
-              <h3 class="events-title">
-                Bank Holiday Rave
-              </h3>
+          <!-- Event 1 -->
+          <div class="row events-div justify-content-center align-items-center">
+            <div class="col-lg-6 col-sm-6 events-writing">
+              <h3 class="events-title">Bank Holiday Rave</h3>
               <div class="events-info">
                 <div class="venue">
-                  
                   <p class="events-info-p">
-                   <i class="fa-solid fa-location-dot"></i> The Crown Venue
+                    <i class="fa-solid fa-location-dot"></i> The Crown Venue
                   </p>
                 </div>
                 <div class="date">
-                 
                   <p class="events-info-p">
                     <i class="fa-solid fa-calendar"></i> 5th April 2026
                   </p>
                 </div>
                 <div class="time">
-                 
                   <p class="events-info-p">
                     <i class="fa-solid fa-clock"></i> 10PM - 2AM
                   </p>
                 </div>
-                 <div class="genre">
-                
+                <div class="genre">
                   <p class="events-info-p">
-                  <i class="fa-solid fa-music"></i>  DNB + DUBSTEP
+                    <i class="fa-solid fa-music"></i> DNB + DUBSTEP
                   </p>
                 </div>
-                 <div class="id">
-                 
+                <div class="id">
                   <p class="events-info-p">
                     <i class="fa-solid fa-id-badge"></i> 18+ Event ID REQUIRED
                   </p>
                 </div>
               </div>
               <p class="events-p">
-                Lorem ipsum dolor sit amet consectetur. Vel donec eleifend sagittis nulla tellus eu tortor. Viverra quis volutpat leo pulvinar ac non. A leo purus purus libero nunc vulputate. Feugiat urna libero dignissim turpis scelerisque faucibus fames non.
+                Lorem ipsum dolor sit amet consectetur. Vel donec eleifend
+                sagittis nulla tellus eu tortor. Viverra quis volutpat leo
+                pulvinar ac non. A leo purus purus libero nunc vulputate.
+                Feugiat urna libero dignissim turpis scelerisque faucibus fames
+                non.
               </p>
-              <a href="https://www.eventbrite.co.uk/" class="mission-button event-button">Buy Tickets</a>
-            </div>
-            <div class="col-12 col-lg-6 text-end">
-                      <img src="assets/images/poster1.png" alt="Logo" class="events-poster" />
+              <div class="event-buttons">
+                <a href="#" class="mission-button event-button info-button">
+                  View Description
+                </a>
 
+                <a
+                  href="https://www.eventbrite.co.uk/"
+                  class="mission-button event-button"
+                >
+                  Buy Tickets
+                </a>
+              </div>
+            </div>
+
+            <!-- Event 1 Modal -->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Vel donec eleifend
+                  sagittis nulla tellus eu tortor. Viverra quis volutpat leo
+                  pulvinar ac non. A leo purus purus libero nunc vulputate.
+                  Feugiat urna libero dignissim turpis scelerisque faucibus
+                  fames non.
+                </p>
+              </div>
+            </div>
+
+            <!-- Event 1 Poster -->
+            <div class="col-lg-6 col-sm-6 text-end">
+              <img
+                src="assets/images/poster1.png"
+                alt="Logo"
+                class="events-poster"
+              />
             </div>
           </div>
-         
-        </div>
 
+          <!-- Event 2 -->
+          <div class="row events-div justify-content-center align-items-center">
+            <div class="col-lg-6 col-sm-6 events-writing">
+              <h3 class="events-title">Bank Holiday Rave</h3>
+              <div class="events-info">
+                <div class="venue">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-location-dot"></i> The Crown Venue
+                  </p>
+                </div>
+                <div class="date">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-calendar"></i> 5th April 2026
+                  </p>
+                </div>
+                <div class="time">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-clock"></i> 10PM - 2AM
+                  </p>
+                </div>
+                <div class="genre">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-music"></i> DNB + DUBSTEP
+                  </p>
+                </div>
+                <div class="id">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-id-badge"></i> 18+ Event ID REQUIRED
+                  </p>
+                </div>
+              </div>
+              <p class="events-p">
+                Lorem ipsum dolor sit amet consectetur. Vel donec eleifend
+                sagittis nulla tellus eu tortor. Viverra quis volutpat leo
+                pulvinar ac non. A leo purus purus libero nunc vulputate.
+                Feugiat urna libero dignissim turpis scelerisque faucibus fames
+                non.
+              </p>
+              <div class="event-buttons">
+                <a href="#" class="mission-button event-button info-button">
+                  View Description
+                </a>
+
+                <a
+                  href="https://www.eventbrite.co.uk/"
+                  class="mission-button event-button"
+                >
+                  Buy Tickets
+                </a>
+              </div>
+            </div>
+            <!-- Event 2 Modal -->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Vel donec eleifend
+                  sagittis nulla tellus eu tortor. Viverra quis volutpat leo
+                  pulvinar ac non. A leo purus purus libero nunc vulputate.
+                  Feugiat urna libero dignissim turpis scelerisque faucibus
+                  fames non.
+                </p>
+              </div>
+            </div>
+
+            <!-- Event 2 Poster -->
+            <div class="col-lg-6 col-sm-6 text-end">
+              <img
+                src="assets/images/poster3.png"
+                alt="Logo"
+                class="events-poster"
+              />
+            </div>
+          </div>
+          <div class="row events-div justify-content-center align-items-center">
+            <div class="col-lg-6 col-sm-6 events-writing">
+              <h3 class="events-title">Bank Holiday Rave</h3>
+              <div class="events-info">
+                <div class="venue">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-location-dot"></i> The Crown Venue
+                  </p>
+                </div>
+                <div class="date">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-calendar"></i> 5th April 2026
+                  </p>
+                </div>
+                <div class="time">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-clock"></i> 10PM - 2AM
+                  </p>
+                </div>
+                <div class="genre">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-music"></i> DNB + DUBSTEP
+                  </p>
+                </div>
+                <div class="id">
+                  <p class="events-info-p">
+                    <i class="fa-solid fa-id-badge"></i> 18+ Event ID REQUIRED
+                  </p>
+                </div>
+              </div>
+              <p class="events-p">
+                Lorem ipsum dolor sit amet consectetur. Vel donec eleifend
+                sagittis nulla tellus eu tortor. Viverra quis volutpat leo
+                pulvinar ac non. A leo purus purus libero nunc vulputate.
+                Feugiat urna libero dignissim turpis scelerisque faucibus fames
+                non.
+              </p>
+              <div class="event-buttons">
+                <a href="#" class="mission-button event-button info-button">
+                  View Description
+                </a>
+
+                <a
+                  href="https://www.eventbrite.co.uk/"
+                  class="mission-button event-button"
+                >
+                  Buy Tickets
+                </a>
+              </div>
+            </div>
+
+            <!-- Event 3 Modal -->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Vel donec eleifend
+                  sagittis nulla tellus eu tortor. Viverra quis volutpat leo
+                  pulvinar ac non. A leo purus purus libero nunc vulputate.
+                  Feugiat urna libero dignissim turpis scelerisque faucibus
+                  fames non.
+                </p>
+              </div>
+            </div>
+
+            <!-- Event 3 Poster -->
+            <div class="col-lg-6 col-sm-6 text-end">
+              <img
+                src="assets/images/poster2.png"
+                alt="Logo"
+                class="events-poster"
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-        <footer class="mt-auto footer">
+    <!-- Footer -->
+    <footer class="mt-auto footer">
+      <div class="row justify-content-center">
+        <!-- Footer Top -->
+        <div class="row footer1">
+          <!-- Footer Socials -->
+          <div class="col-12 col-md-4 text-center">
+            <ul class="socailsList">
+              <li class="socailsListOption">
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+              <li class="socailsListOption">
+                <i class="fa-brands fa-youtube"></i>
+              </li>
+              <li class="socailsListOption">
+                <i class="fa-brands fa-soundcloud"></i>
+              </li>
+              <li class="socailsListOption">
+                <i class="fa-brands fa-youtube"></i>
+              </li>
+            </ul>
+          </div>
 
-       <div class="row justify-content-center">
-            
-            <!-- Footer Top -->
-            <div class="row footer1">
+          <!-- Footer Logo -->
+          <div class="col-12 col-md-4 text-center">
+            <img
+              src="assets/images/MNAMLU_logo_nobg_white.png"
+              alt="logo"
+              class="footerLogo"
+            />
+          </div>
 
-                <!-- Footer Socials -->
-                <div class="col-12 col-md-4 text-center">
-                    <ul class="socailsList">
-                        <li class="socailsListOption"><i class="fa-brands fa-instagram"></i></li>
-                        <li class="socailsListOption"><i class="fa-brands fa-youtube"></i></li>
-                        <li class="socailsListOption"><i class="fa-brands fa-soundcloud"></i></li>
-                        <li class="socailsListOption"><i class="fa-brands fa-youtube"></i></li>
-
-                    </ul>
-                </div>
-
-                <!-- Footer Logo -->
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/MNAMLU_logo_nobg_white.png" alt="logo" class="footerLogo"/>
-                </div>
-
-                <!-- Footer Email -->
-                <div class="col-12 col-md-4 text-center">
-                    <a href="mailto:nomoreallmalelineups@gmail.com" class="footerEmail">nomoreallmalelineups@gmail.com</a>
-                </div>
-            </div>
-            <br>
-             <div class="row footer2">
-                <div class="col-12 col-md-3 text-center"> <i class="fa-solid fa-copyright copyrightLogo"></i> 2026 NMAMLU</div>
-                <div class="col-12 col-md-3 text-center" href="privacy.html">Privacy Policy</div>
-                <div class="col-12 col-md-3 text-center" href="terms.html">Terms and Conditions</div>
-                <div class="col-12 col-md-3 text-center">Site by <a href="https://www.yorkepages.co.uk" rel="noopener" target="_blank" class="yorkePages"> YorkePages</a></div>
-            </div>
+          <!-- Footer Email -->
+          <div class="col-12 col-md-4 text-center">
+            <a href="mailto:nomoreallmalelineups@gmail.com" class="footerEmail"
+              >nomoreallmalelineups@gmail.com</a
+            >
+          </div>
         </div>
-     
+        <br />
+        <div class="row footer2">
+          <div class="col-12 col-md-3 text-center">
+            <i class="fa-solid fa-copyright copyrightLogo"></i> 2026 NMAMLU
+          </div>
+          <div class="col-12 col-md-3 text-center" href="privacy.html">
+            Privacy Policy
+          </div>
+          <div class="col-12 col-md-3 text-center" href="terms.html">
+            Terms and Conditions
+          </div>
+          <div class="col-12 col-md-3 text-center">
+            Site by
+            <a
+              href="https://www.yorkepages.co.uk"
+              rel="noopener"
+              target="_blank"
+              class="yorkePages"
+            >
+              YorkePages</a
+            >
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- Bootstrap JS -->
@@ -194,5 +395,29 @@
       src="https://kit.fontawesome.com/aa9af45995.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Modal Script-->
+    <script>
+      const modal = document.getElementById("myModal");
+      const buttons = document.querySelectorAll(".info-button");
+      const closeBtn = document.querySelector(".close");
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", function (e) {
+          e.preventDefault();
+          modal.style.display = "block";
+        });
+      });
+
+      closeBtn.addEventListener("click", function () {
+        modal.style.display = "none";
+      });
+
+      window.addEventListener("click", function (e) {
+        if (e.target === modal) {
+          modal.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>

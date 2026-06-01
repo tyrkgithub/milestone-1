@@ -18,7 +18,6 @@ body {
   background-color: #272322;
 }
 
-
 /* NavBar */
 
 .nav-link {
@@ -30,7 +29,6 @@ body {
 .logo {
   width: 50px;
 }
-
 
 /* Hero */
 
@@ -47,7 +45,6 @@ body {
 .hero-logo {
   width: 600px;
 }
-
 
 /* Pink Banner */
 
@@ -136,7 +133,6 @@ form {
   color: pink;
 }
 
-
 /* Events */
 
 .events-wrapper {
@@ -186,7 +182,6 @@ form {
 .events-header {
   z-index: 3;
 }
-
 
 /* Mission */
 
@@ -270,7 +265,6 @@ form {
   cursor: pointer;
 }
 
-
 /* Soundcloud Banner */
 
 .soundcloud {
@@ -314,7 +308,6 @@ form {
   box-shadow: none;
 }
 
-
 /* Footer*/
 
 .footer1 {
@@ -331,11 +324,11 @@ form {
 }
 
 .socailsListOption {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 35px;
-    height: 35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
   background-color: aliceblue;
   border-radius: 50%;
   margin: 5px;
@@ -371,75 +364,85 @@ a {
   align-items: center; /* vertical */
 }
 
-
-
-/*      EVENTS PAGE    */ 
-.events-div{
+/*  ------   EVENTS PAGE  ------  */
+.events-div {
   color: white;
   font-family: "Bebas Neue", sans-serif;
   align-items: center;
-  padding-bottom: 50px;
-      border-bottom: aliceblue solid 1px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  border-bottom: aliceblue solid 1px;
 }
 
-.events-writing{
+.events-writing {
   width: auto;
-
 }
 
-.events-info-p{
+.events-info-p {
   margin-bottom: 10px;
 }
 
-.events-info{
-      padding-bottom: 17px;
+.events-info {
+  padding-bottom: 17px;
 }
 
-.events-page-wrapper{
+.events-page-wrapper {
   max-width: 1000px;
   margin: 0 auto;
   padding: 100px 20px;
+  padding-top: 0px;
 }
 
-
-
-.events-poster{
+.events-poster {
   width: 300px;
   max-width: 100%;
   height: auto;
 }
 
-.events-p{
+.events-p {
   width: 300px;
   font-size: 12px;
 }
 
-.events-title{
+.events-title {
   text-transform: capitalize;
   text-align: center;
   font-size: 33px;
-      padding-bottom: 17px;
+  padding-bottom: 17px;
 }
 
-.events-p{
-  font-family: "Quicksand", sans-serif;;
+.events-p {
+  font-family: "Quicksand", sans-serif;
 }
 
-.fa-solid{
+.fa-solid {
   color: rgba(204, 0, 255, 0.9);
   width: 22px;
   padding-right: 3px;
 }
 
-.event-button{
-  position: relative;
-  bottom: 0;
+.event-button {
+  display: block;
+  width: 180px; /* or 100% if you want full width */
+  margin-bottom: 10px; /* space between buttons */
+  text-align: center;
 }
 
+.event-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
 
+.event-buttons a {
+  width: 200px; /* consistent button width */
+  text-align: center;
+}
 
-
-
+.info-button {
+  display: none;
+}
 
 /* Media Queries*/
 
@@ -449,22 +452,21 @@ a {
   }
 
   .mission-h2,
-  .soundcloud-h2{
+  .soundcloud-h2 {
     font-size: 60px;
   }
 
-  .email{
+  .email {
     height: 30px;
   }
 
-  .mission{
-        height: 450px;
+  .mission {
+    height: 450px;
   }
 }
 
 @media screen and (max-width: 764px) {
-
-  .hero{
+  .hero {
     height: 400px;
   }
   .mission-h2 {
@@ -479,7 +481,7 @@ a {
     width: 400px;
   }
 
-  .newsletter-p{
+  .newsletter-p {
     margin-bottom: 5px;
   }
 
@@ -507,53 +509,105 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  .hero{
+  .hero {
     height: 350px;
   }
 
-
-
-  .mission-button{
-        padding: 5px 15px;
-        height: 30px;
+  .mission-button {
+    padding: 5px 15px;
+    height: 30px;
   }
-  .newsletter-p{
+  .newsletter-p {
     font-size: 12px;
   }
- .mission-h2,
- .soundcloud-h2{
-  font-size: 40px;
-  margin-bottom: 0px;
- }
+  .mission-h2,
+  .soundcloud-h2 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
 
- .mission{
-  height: 350px;
- }
+  .mission {
+    height: 350px;
+  }
 
- .mission-div{
-  padding: 50px;
- }
+  .mission-div {
+    padding: 50px;
+  }
 
- .mission-button,
- .soundcloud-button{
-  font-size: 15px;
- }
+  .mission-button,
+  .soundcloud-button {
+    font-size: 15px;
+  }
 
- .soundcloud{
-  height: 250px;
- }
-
-
+  .soundcloud {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 415px) {
-.soundcloud{
-  height: 220px;
+  .soundcloud {
+    height: 220px;
+  }
+
+  .hero-logo {
+    width: 300px;
+  }
 }
 
-    .hero-logo {
-        width: 300px;
-    }
+/*.  EVENTS PAGE MEDIA QUERIES.   */
 
- 
+@media screen and (max-width: 700px) {
+  .events-poster {
+    width: 200px;
+  }
+  .events-title {
+    font-size: 23px;
+  }
+  .events-p {
+    display: none;
+  }
+  .events-info-p {
+    font-size: 14px;
+  }
+  .events-div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .event-button {
+    padding: 5px 15px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .info-button {
+    display: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .events-div {
+    flex-wrap: nowrap;
+  }
+
+  .events-writing,
+  .events-div > div.text-end {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .events-poster {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+.event-buttons a {
+    width: 150px;
+}
+
+
+.events-info-p {
+    margin-bottom: 2px;
+}
 }
