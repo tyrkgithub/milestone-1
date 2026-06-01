@@ -371,6 +371,76 @@ a {
   align-items: center; /* vertical */
 }
 
+
+
+/*      EVENTS PAGE    */ 
+.events-div{
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  align-items: center;
+  padding-bottom: 50px;
+      border-bottom: aliceblue solid 1px;
+}
+
+.events-writing{
+  width: auto;
+
+}
+
+.events-info-p{
+  margin-bottom: 10px;
+}
+
+.events-info{
+      padding-bottom: 17px;
+}
+
+.events-page-wrapper{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+
+
+.events-poster{
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+.events-p{
+  width: 300px;
+  font-size: 12px;
+}
+
+.events-title{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 33px;
+      padding-bottom: 17px;
+}
+
+.events-p{
+  font-family: "Quicksand", sans-serif;;
+}
+
+.fa-solid{
+  color: rgba(204, 0, 255, 0.9);
+  width: 22px;
+  padding-right: 3px;
+}
+
+.event-button{
+  position: relative;
+  bottom: 0;
+}
+
+
+
+
+
+
 /* Media Queries*/
 
 @media screen and (max-width: 1120px) {
@@ -480,4 +550,10 @@ a {
 .soundcloud{
   height: 220px;
 }
+
+    .hero-logo {
+        width: 300px;
+    }
+
+ 
 }
