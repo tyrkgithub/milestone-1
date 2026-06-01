@@ -1,182 +1,235 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap");
 
 /* CSS Variables */
 :root {
-    --primary-font: "Inter", sans-serif;
-    --secondary-font: "Macondo", cursive;
-    --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #7a9fc2; /* light blue */
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Macondo", cursive;
+  --primary-color: #3a2620; /* dark brown */
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-body: "Quicksand", sans-serif;
+  --font-accent: "Economica", sans-serif;
 }
-
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-.quicksand-uniquifier {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
 
 /* Global styles */
 
 body {
-    font-family: var(--primary-font);
-    background-color: #272322;
-}
-
-h1,
-h2,
-h3 {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-}
-
-.sub-heading-color {
-    color: var(--highlight-color);
+  font-family: var(--font-body);
+  background-color: #272322;
 }
 
 
-    */
+/* NavBar */
 
-.navbar1 {
-  background-color: red !important;
-  height: 200px;
-  border: 10px solid yellow;
+.nav-link {
+  margin-left: 42px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 21px;
 }
 
 .logo {
   width: 50px;
 }
 
-.footer1{
-    color: aliceblue;
-    height: 175px;
-    background-color: #272322;
-    border-bottom: aliceblue solid 1px;
-}
 
-.footer2{
-    color: aliceblue !important;
-    height: 75px;
-    background-color: #272322;
-}
-
-.socailsListOption {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 40px;
-    height: 40px;
-
-    background-color: aliceblue;
-    border-radius: 50%;
-
-    margin: 5px;
-}
-
-.fa-brands {
-    color: #322926;
-    font-size: 20px;
-}
-
-.footerLogo{
-    width: 100px !important;
-}
-
-.footerEmail,
-.yorkePages{
-    text-decoration: none !important;
-    color: aliceblue;
-}
-
-
-a {
-    text-decoration: none !important;
-}
-
-
-.copyrightLogo{
-    padding-right: 4px;
-}
-
-.footer1 .col-12,
-.footer2 .col-12 {
-    display: flex;
-    justify-content: center; /* horizontal */
-    align-items: center;     /* vertical */
-}
+/* Hero */
 
 .hero {
-    height: 500px;
-background-image: url("../images/hero-bg.png");
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 500px;
+  background-image: url("../images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-logo {
-    width: 600px;
+  width: 600px;
 }
 
 
-/*Mission*/
+/* Pink Banner */
 
-.mission{
-    text-align: center;
-    height: 500px;
+.pink-banner {
+  background-color: rgba(204, 0, 255, 0.9);
+  color: white;
+
+  padding: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.mission-div{
-    padding: 100px;
+.newsletter {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-p {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.email-wrapper {
+  position: relative;
+  width: 70%;
+}
+
+.email {
+  color: pink;
+  border-radius: 20px;
+  border-style: none;
+
+  padding-left: 15px;
+  padding-right: 50px;
+
+  height: 40px;
+  width: 100%;
+}
+
+::placeholder {
+  color: pink;
+  padding-left: 10px;
+  font-family: "Economica", sans-serif;
+}
+
+.email-button {
+  position: absolute;
+
+  top: 50%;
+  right: 5px;
+
+  transform: translateY(-50%);
+
+  border: none;
+  background: white;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.fa-arrow-right {
+  color: pink;
+}
+
+
+/* Events */
+
+.events-wrapper {
+  position: relative;
+}
+
+.events-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  z-index: 2;
+  text-align: center;
+}
+
+.events-home-div {
+  position: relative;
+  z-index: 1;
+}
+.events-home-div {
+  display: flex;
+
+  background-color: rgb(202, 188, 188);
+}
+
+.events-home-div::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.events-home-img {
+  width: 20%;
+  height: clamp(100px, 25vw, 450px);
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.events-header {
+  z-index: 3;
+}
+
+
+/* Mission */
+
+.mission {
+  text-align: center;
+  height: 500px;
+}
+
+.mission-div {
+  padding: 100px;
 }
 
 .mission-h2 {
-    font-size: 70px;
-font-family: "Bebas Neue", sans-serif;
-    color: white;
-    outline: black 1px;
-    text-shadow: rgba(204,0,255,0.9) 0px 0px 18px;
+  font-size: 70px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  outline: black 1px;
+  text-shadow: rgba(204, 0, 255, 0.9) 0px 0px 18px;
+  -webkit-text-stroke: 1px rgba(204, 0, 255, 0.9);
 }
 
 .mission-p {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-    font-size: 17px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 17px;
   font-family: "Quicksand", sans-serif;
 }
 
-.mission-button{
-     background-color: rgba(204,0,255,0.9);
-    color: white;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-
-    border: none; /* removes bootstrap/button border */
-    border-radius: 4px;
-
-    padding: 8px 16px;
-
-    outline: none;
-    box-shadow: none;
+.mission-button {
+  background-color: rgba(204, 0, 255, 0.9);
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  border: none; /* removes bootstrap/button border */
+  border-radius: 4px;
+  padding: 8px 16px;
+  outline: none;
+  box-shadow: none;
 }
 
+/* Mission Modal */
 
-
-
-/* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -186,8 +239,9 @@ font-family: "Bebas Neue", sans-serif;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  z-index: 9999;
 }
 
 .modal-content {
@@ -204,7 +258,6 @@ font-family: "Bebas Neue", sans-serif;
   position: absolute;
   top: 10px;
   right: 20px;
-
   color: #aaa;
   font-size: 28px;
   font-weight: bold;
@@ -218,35 +271,213 @@ font-family: "Bebas Neue", sans-serif;
 }
 
 
+/* Soundcloud Banner */
+
+.soundcloud {
+  height: 300px;
+  text-align: center;
+  background-image: url("../images/soundcloud.png");
+}
+
+.soundcloud-div {
+  padding: auto;
+}
+
+.soundcloud-h2 {
+  padding-top: 60px;
+  font-size: 70px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  outline: black 1px;
+  text-shadow: rgba(227, 100, 10, 0.9) 0px 0px 18px;
+  -webkit-text-stroke: 1px rgba(227, 100, 10, 0.9);
+}
+
+.soundcloud-p {
+  color: rgba(227, 100, 10, 0.9);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 15px;
+}
+
+.soundcloud-button {
+  background-color: rgba(227, 100, 10, 0.9);
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+
+  border: none; /* removes bootstrap/button border */
+  border-radius: 4px;
+
+  padding: 8px 16px;
+
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* Footer*/
+
+.footer1 {
+  color: aliceblue;
+  height: 175px;
+  background-color: #272322;
+  border-bottom: aliceblue solid 1px;
+}
+
+.footer2 {
+  color: aliceblue !important;
+  height: 75px;
+  background-color: #272322;
+}
+
+.socailsListOption {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.fa-brands {
+  color: #322926;
+  font-size: 20px;
+}
+
+.footerLogo {
+  width: 100px !important;
+}
+
+.footerEmail,
+.yorkePages {
+  text-decoration: none !important;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.copyrightLogo {
+  padding-right: 4px;
+}
+
+.footer1 .col-12,
+.footer2 .col-12 {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+}
+
 /* Media Queries*/
 
+@media screen and (max-width: 1120px) {
+  .newsletter-p {
+    font-size: 15px;
+  }
+
+  .mission-h2,
+  .soundcloud-h2{
+    font-size: 60px;
+  }
+
+  .email{
+    height: 30px;
+  }
+
+  .mission{
+        height: 450px;
+  }
+}
 
 @media screen and (max-width: 764px) {
 
-    .hero-logo{
-        width: 400px;
-    }
+  .hero{
+    height: 400px;
+  }
+  .mission-h2 {
+    font-size: 50px;
+  }
 
-    .footer1 {
-        height: auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+  .mission-p {
+    font-size: 13px;
+  }
 
-    .footer1 .col-12 {
-        padding-bottom: 20px;
-    }
+  .hero-logo {
+    width: 400px;
+  }
 
-    .socailsList{
-        padding: 0;
-    }
+  .newsletter-p{
+    margin-bottom: 5px;
+  }
 
-    .footer2{
-        padding-top: 10px;
-    }
+  .footer1 {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-    .footer2 .col-12 {
-        padding-bottom: 10px;
-    }
+  .footer1 .col-12 {
+    padding-bottom: 20px;
+  }
 
+  .socailsList {
+    padding: 0;
+  }
+
+  .footer2 {
+    padding-top: 10px;
+  }
+
+  .footer2 .col-12 {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero{
+    height: 350px;
+  }
+
+
+
+  .mission-button{
+        padding: 5px 15px;
+        height: 30px;
+  }
+  .newsletter-p{
+    font-size: 12px;
+  }
+ .mission-h2,
+ .soundcloud-h2{
+  font-size: 40px;
+  margin-bottom: 0px;
+ }
+
+ .mission{
+  height: 350px;
+ }
+
+ .mission-div{
+  padding: 50px;
+ }
+
+ .mission-button,
+ .soundcloud-button{
+  font-size: 15px;
+ }
+
+ .soundcloud{
+  height: 250px;
+ }
+
+
+}
+
+@media screen and (max-width: 415px) {
+.soundcloud{
+  height: 220px;
+}
 }
