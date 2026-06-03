@@ -16,7 +16,7 @@ A template to use for the starting point of my README files for the duration of 
 ##### [User Stories](https://github.com/tyrkgithub/milestone-1#user-stories-1)
 ##### [Design Choices](https://github.com/tyrkgithub/milestone-1#design-choices-1)
 ##### [Wireframes](https://github.com/tyrkgithub/milestone-1#wireframes-1)
-##### [Wireframes](https://github.com/tyrkgithub/milestone-1#prototype-1)
+##### [Prototype](https://github.com/tyrkgithub/milestone-1#prototype-1)
 
 ### [Features](https://github.com/tyrkgithub/milestone-1#features-1)
 ##### [Existing Features](https://github.com/tyrkgithub/milestone-1#existing-features-1)
@@ -52,7 +52,7 @@ A template to use for the starting point of my README files for the duration of 
 
 ### Wireframes
 
-## Home
+#### Home
 
 <img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" />
 <br>
@@ -77,9 +77,9 @@ A template to use for the starting point of my README files for the duration of 
 (Mobile with open Mission Statement)
 <p> </p>
 <br>
+<p> </p>
 
-
-## Residents
+#### Residents
 
 <img width="1440" height="3046" alt="Desktop - Residents" src="https://github.com/user-attachments/assets/72dc4a89-da58-435f-9b7c-d807d024048e" />
 <br>
@@ -104,9 +104,9 @@ A template to use for the starting point of my README files for the duration of 
 (Mobile with filter)
 <p> </p>
 <br>
+<p> </p>
 
-
-## Events
+#### Events
 
 <img width="1440" height="2973" alt="Desktop - Events" src="https://github.com/user-attachments/assets/c79cfe80-08e1-4e2f-b11e-961801f5d76f" />
 <br>
@@ -125,9 +125,9 @@ A template to use for the starting point of my README files for the duration of 
 (Mobile with description open)
 <p> </p>
 <br>
+<p> </p>
 
-
-## Contact
+#### Contact
 
 <img width="1440" height="3273" alt="Desktop - Contact" src="https://github.com/user-attachments/assets/0a9f1ba4-0687-4cc3-afe4-6a440f3a074d" />
 <br>
@@ -140,6 +140,7 @@ A template to use for the starting point of my README files for the duration of 
 (Mobile)
 <p> </p>
 <br>
+<p> </p>
 
 ## Hamburger Menu
 
@@ -158,8 +159,8 @@ A template to use for the starting point of my README files for the duration of 
 
 As well as creating high fidelity mock ups to guide me in the process I also added interaction links on Figma, which has allowed me to create a working prototype.
 
-https://github.com/user-attachments/assets/e3d112ca-6dfb-4a7f-afc4-01af537354a2
-A protoype of what the web application would look like in mobile view.
+https://github.com/user-attachments/assets/e3d112ca-6dfb-4a7f-afc4-01af537354a2 <br>
+(A protoype of what the web application would look like in mobile view.)
 
 
 
