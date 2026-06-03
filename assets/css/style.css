@@ -696,6 +696,39 @@ a {
 
 
 
+/* Residents */
+
+.grid-div{
+   display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.artist{
+   background-color: #f1f1f1;
+  border: 1px solid black;
+  text-align: left;
+  min-height: 200px;
+      background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.artist1{
+  background-image: url(../images/artist1.png);
+}
+
+.artist-div{
+  max-height: 20%;
+  background-color: #322926;
+  color: #f1f1f1;
+}
+.artist-social-icon{
+  color: #f1f1f1;
+}
+
+
+
+
 /* Media Queries*/
 
 @media screen and (max-width: 1120px) {
