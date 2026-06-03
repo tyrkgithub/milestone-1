@@ -4,11 +4,11 @@ A template to use for the starting point of my README files for the duration of 
 
 
 ## Link
-https://tyrkgithub.github.io/milestone-1
+[No More All Male Line Ups]https://tyrkgithub.github.io/milestone-1
 
 
 ## Table of Contents
-### [UX](https://github.com/tyrkgithub/milestone-1#ux-1)) 
+### [UX](https://github.com/tyrkgithub/milestone-1#ux-1)
 ##### [Project Goals](https://github.com/tyrkgithub/milestone-1#project-goals-1)
 ##### [Parental Goals](https://github.com/tyrkgithub/milestone-1#parental-goals-1)
 ##### [Player Goals](https://github.com/tyrkgithub/milestone-1#player-goals-1)
