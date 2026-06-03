@@ -716,9 +716,6 @@ a {
   min-height: 300px;
 }
 
-.artist1{
-  background-image: url(../images/artist1.png);
-}
 
 .artist-div{
   position: absolute;
@@ -757,7 +754,21 @@ font-size: 16px;
   height: 30px;
 }
 
+.artist1{
+  background-image: url(../images/artist1.png);
+}
 
+.artist2{
+  background-image: url(../images/artist4.png);
+}
+
+.artist3{
+  background-image: url(../images/artist5.png);
+}
+
+.artist4{
+  background-image: url(../images/artist2.png);
+}
 
 
 /* Media Queries*/
