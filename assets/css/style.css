@@ -769,11 +769,16 @@ a {
     padding: 5px 15px;
     height: 30px;
   }
-  .newsletter-p {
+  .newsletter-p,
+  .email-p,
+  .socials-p {
     font-size: 12px;
   }
   .mission-h2,
-  .soundcloud-h2 {
+  .soundcloud-h2,
+  .email-h2,
+  .socials-h2,
+  .youtube-h2 {
     font-size: 40px;
     margin-bottom: 0px;
   }
@@ -803,6 +808,16 @@ a {
 
   .hero-logo {
     width: 300px;
+  }
+
+  .email-email{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .soundcloud{
+    height: 267px;
   }
 }
 
