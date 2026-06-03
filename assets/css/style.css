@@ -706,7 +706,6 @@ a {
 
 .artist{
   background-color: #f1f1f1;
-  border: 1px solid black;
   text-align: left;
   min-height: 200px;
   background-position: center; /* Center the image */
@@ -774,10 +773,17 @@ font-size: 16px;
   color: #f1f1f1;
     font-family: "Bebas Neue", sans-serif;
     padding: 0;
+    margin: 0;
 }
 
 .artist-li{
    --bs-gutter-x: 0rem;
+}
+
+.artist-socials-option-mobile{
+  width: 50px;
+  height: 50px;
+
 }
 
 .artist-mobile-info{
@@ -795,8 +801,11 @@ font-size: 16px;
   margin: 0;
 }
 
-.darkpink{
+.lightpink{
   background-color: rgb(210, 105, 197);
+}
+.darkpink{
+  background-color: rgba(204, 0, 255, 0.9);
 }
 
 .artist-socials-mobile{
@@ -806,7 +815,6 @@ font-size: 16px;
 }
 
 .artist-pic{
-    border: 1px solid black;
   text-align: left;
   min-height: 200px;
   background-position: center; /* Center the image */
@@ -814,11 +822,17 @@ font-size: 16px;
   background-size: cover; /* Resize the background image to cover the entire container */
     position: relative;
   min-height: 50px;
+  padding: 0;
 }
 
 .artist-pic1{
   background-image: url(../images/artist1.png);
-  padding: 0;
+ 
+}
+
+.artist-pic2{
+  background-image: url(../images/artist4.png);
+
 }
 
 
