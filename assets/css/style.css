@@ -770,6 +770,71 @@ font-size: 16px;
   background-image: url(../images/artist2.png);
 }
 
+.artist-ul{
+  color: #f1f1f1;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 0;
+}
+
+.artist-li{
+   --bs-gutter-x: 0rem;
+}
+
+.artist-mobile-info{
+  padding: 0;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.artist-title-mobile{
+  margin: 0;
+}
+
+.artist-location-mobile,
+.artist-genre-mobile{
+  margin: 0;
+}
+
+.darkpink{
+  background-color: rgb(210, 105, 197);
+}
+
+.artist-socials-mobile{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-pic{
+    border: 1px solid black;
+  text-align: left;
+  min-height: 200px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+  min-height: 50px;
+}
+
+.artist-pic1{
+  background-image: url(../images/artist1.png);
+  padding: 0;
+}
+
+
+@media screen and (min-width: 450px) {
+  .artist-list-mobile{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+.artist-grid{
+  display: none;
+}
+}
+
 
 /* Media Queries*/
 
