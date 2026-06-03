@@ -57,7 +57,7 @@ A template to use for the starting point of my README files for the duration of 
 <img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" />
 <br>
 (Desktop)
-&nbsp;
+<p> </p>
 <br>
 
 <img width="1440" height="3752" alt="Desktop - Home (Modal)" src="https://github.com/user-attachments/assets/bb5c1bc6-2440-4018-bf70-3cdb05edce80" />
