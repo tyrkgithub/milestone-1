@@ -101,7 +101,7 @@
     nomoreallmalelineups@gmail.com
   </p>
 
-  <button title="copy-button" class="copy-button" onclick="copyToClipboard('#p1')">
+  <button title="copy-button" class="copy-button button-glow" onclick="copyToClipboard('#p1')">
     <i class="fa fa-clone" aria-hidden="true"></i>
   </button>
 </div>
@@ -116,16 +116,16 @@
             up to date with our latest announcements
           </p>
           <ul class="socailsList">
-            <li class="socailsListOption">
+            <li class="socailsListOption button-glow">
               <i class="fa-brands fa-instagram"></i>
             </li>
-            <li class="socailsListOption">
+            <li class="socailsListOption button-glow">
               <i class="fa-brands fa-youtube"></i>
             </li>
-            <li class="socailsListOption">
+            <li class="socailsListOption button-glow">
               <i class="fa-brands fa-soundcloud"></i>
             </li>
-            <li class="socailsListOption">
+            <li class="socailsListOption button-glow">
               <i class="fa-brands fa-youtube"></i>
             </li>
           </ul>
@@ -143,7 +143,7 @@
             href="https://soundcloud.com"
             rel="noopener"
             target="_blank"
-            class="mission-button soundcloud-button"
+            class="mission-button soundcloud-button button-glow"
             >View All</a
           >
         </div>
@@ -161,7 +161,7 @@
               href="https://www.youtube.com/@NoMoreAllMaleLineUps"
               rel="noopener"
               target="_blank"
-              class="mission-button youtube-button"
+              class="mission-button youtube-button button-glow"
               >Take Me There</a
             >
           </div>
@@ -255,13 +255,24 @@
     <!-- Copy to Clipboard-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
-      function copyToClipboard(element) {
-        var $temp = $("<input>");
-        $("body").append($temp);
-        $temp.val($(element).text()).select();
-        document.execCommand("copy");
-        $temp.remove();
-      }
+     function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+
+  // Swap icon to checkmark
+  var btn = $(".copy-button");
+  btn.html('<i class="fa fa-check" aria-hidden="true"></i>');
+  btn.css("background-color", "#28a745"); /* green */
+
+  // Swap back after 2 seconds
+  setTimeout(function () {
+    btn.html('<i class="fa fa-clone" aria-hidden="true"></i>');
+    btn.css("background-color", "");
+  }, 2000);
+}
     </script>
 
     <!-- Modal Script-->
