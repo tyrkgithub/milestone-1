@@ -30,6 +30,55 @@ body {
   width: 50px;
 }
 
+/*. Button Glow Effect (menuhover.com)*/
+
+.button-glow {
+  position: relative;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  overflow: visible;
+  box-shadow: 0 0 0 0 rgba(66, 220, 219, 0);
+}
+
+.button-glow:hover {
+  color: #fff;
+  
+  transform: translateY(-3px);
+  box-shadow: 
+    0 0 10px 3px rgba(204, 0, 255, 0.9),
+    0 0 15px 6px rgba(66, 220, 219, 0.4),
+    0 0 25px 10px rgba(66, 220, 219, 0.1);
+  animation: neon-pulse 1.5s infinite alternate;
+}
+
+@keyframes neon-pulse {
+  0% {
+    box-shadow: 
+      0 0 10px 3px rgba(204, 0, 255, 0.9),
+      0 0 15px 6px rgba(66, 220, 219, 0.4),
+      0 0 25px 10px rgba(66, 220, 219, 0.1);
+  }
+  100% {
+    box-shadow: 
+      0 0 15px 5px rgba(204, 0, 255, 0.9),
+      0 0 25px 10px rgba(66, 220, 219, 0.5),
+      0 0 35px 15px rgba(66, 220, 219, 0.2);
+  }
+}
+
+.button-glow:active {
+  transform: translateY(-1px);
+  box-shadow: 
+    0 0 8px 2px rgba(204, 0, 255, 0.9),
+    0 0 12px 5px rgba(66, 220, 219, 0.3),
+    0 0 20px 8px rgba(66, 220, 219, 0.1);
+}
+
+
 /* Hero */
 
 .hero {
@@ -75,6 +124,8 @@ body {
   text-align: center;
   letter-spacing: 1px;
 }
+
+
 
 form {
   display: flex;
@@ -479,7 +530,6 @@ a {
   font-family: "Quicksand", sans-serif;
   font-size: 15px;
   color: white;
-  max-width: 500px;
   margin: 0;
 }
 
@@ -560,7 +610,6 @@ a {
   font-size: 15px;
   color: white;
   margin: 0;
-  max-width: 500px;
 }
 
 /* Reuse + enhance your existing socials list */
@@ -849,6 +898,11 @@ font-size: 16px;
 }
 }
 
+@media screen and (max-width: 450px) {
+
+}
+
+
 
 /* Media Queries*/
 
@@ -887,7 +941,7 @@ font-size: 16px;
     width: 400px;
   }
 
-  .newsletter-p {
+  .newsletter-p-home {
     margin-bottom: 5px;
   }
 
