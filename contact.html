@@ -30,7 +30,6 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
   <body class="d-flex flex-column min-vh-100">
     <header>
       <!-- Navigation -->
@@ -58,13 +57,10 @@
             <div class="navbar-nav ms-auto">
               <a class="nav-link" href="index.html">HOME</a>
               <a class="nav-link" href="events.html">EVENTS</a>
-              <a
-                class="nav-link"
-                href="residents.html"
-                >RESIDENTS</a
+              <a class="nav-link" href="residents.html">RESIDENTS</a>
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >CONTACT</a
               >
-              <a class="nav-link active"
-                aria-current="page" href="contact.html">CONTACT</a>
             </div>
           </div>
         </div>
@@ -97,17 +93,37 @@
           </p>
 
           <div class="email-copy-row">
-  <p id="p1" class="email-email">
-    nomoreallmalelineups@gmail.com
-  </p>
+            <p id="p1" class="email-email">nomoreallmalelineups@gmail.com</p>
 
-  <button title="copy-button" class="copy-button button-glow" onclick="copyToClipboard('#p1')">
-    <i class="fa fa-clone" aria-hidden="true"></i>
-  </button>
-</div>
+            <button
+              title="copy-button"
+              class="copy-button button-glow"
+              onclick="copyToClipboard('#p1')"
+            >
+              <i class="fa fa-clone" aria-hidden="true"></i>
+            </button>
+          </div>
         </div>
       </section>
 
+      <!-- Soundcloud Banner -->
+      <section class="soundcloud">
+        <div class="soundcloud-div">
+          <h2 class="soundcloud-h2">NMAMLU are on Soundcloud</h2>
+          <p class="soundcloud-p">
+            Check out our latest mixes over on our Soundcoud page.
+          </p>
+          <a
+            href="https://soundcloud.com"
+            rel="noopener"
+            target="_blank"
+            class="mission-button soundcloud-button button-glow"
+            >View All</a
+          >
+        </div>
+      </section>
+
+      <!-- Socials -->
       <section class="socials-section">
         <div class="socials-div">
           <h2 class="socials-h2">Socials</h2>
@@ -129,23 +145,6 @@
               <i class="fa-brands fa-youtube"></i>
             </li>
           </ul>
-        </div>
-      </section>
-
-      <!-- Soundcloud Banner -->
-      <section class="soundcloud">
-        <div class="soundcloud-div">
-          <h2 class="soundcloud-h2">NMAMLU are on Soundcloud</h2>
-          <p class="soundcloud-p">
-            Check out our latest mixes over on our Soundcoud page.
-          </p>
-          <a
-            href="https://soundcloud.com"
-            rel="noopener"
-            target="_blank"
-            class="mission-button soundcloud-button button-glow"
-            >View All</a
-          >
         </div>
       </section>
 
@@ -255,24 +254,24 @@
     <!-- Copy to Clipboard-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
-     function copyToClipboard(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
+      function copyToClipboard(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
 
-  // Swap icon to checkmark
-  var btn = $(".copy-button");
-  btn.html('<i class="fa fa-check" aria-hidden="true"></i>');
-  btn.css("background-color", "#28a745"); /* green */
+        // Swap icon to checkmark
+        var btn = $(".copy-button");
+        btn.html('<i class="fa fa-check" aria-hidden="true"></i>');
+        btn.css("background-color", "#28a745"); /* green */
 
-  // Swap back after 2 seconds
-  setTimeout(function () {
-    btn.html('<i class="fa fa-clone" aria-hidden="true"></i>');
-    btn.css("background-color", "");
-  }, 2000);
-}
+        // Swap back after 2 seconds
+        setTimeout(function () {
+          btn.html('<i class="fa fa-clone" aria-hidden="true"></i>');
+          btn.css("background-color", "");
+        }, 2000);
+      }
     </script>
 
     <!-- Modal Script-->
@@ -303,7 +302,5 @@
         }
       };
     </script>
-
-    <!-- Scroll-->
   </body>
 </html>

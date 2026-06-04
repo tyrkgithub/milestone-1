@@ -30,11 +30,9 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
   <body class="d-flex flex-column min-vh-100">
     <header>
       <!-- Navigation -->
-
       <nav class="navbar navbar1 navbar-expand-lg" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -98,15 +96,14 @@
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
             </div>
-               <p
-            id="newsletter-success"
-            style="display: none"
-            class="newsletter-success"
-          >
-            <i class="fa-solid fa-check"></i> You're signed up!
-          </p>
+            <p
+              id="newsletter-success"
+              style="display: none"
+              class="newsletter-success"
+            >
+              <i class="fa-solid fa-check"></i> You're signed up!
+            </p>
           </form>
-       
         </div>
       </section>
 
@@ -150,7 +147,7 @@
         </div>
       </section>
 
-      <!-- Mission-->
+      <!-- Mission -->
       <section class="mission">
         <div class="mission-div">
           <h2 class="mission-h2">Mission</h2>
@@ -414,20 +411,22 @@
     </script>
 
     <!-- Newsletter Script-->
-<!-- Newsletter Script -->
-<script>
-document.getElementById("newsletter-form").addEventListener("submit", function(e) {
-  e.preventDefault();
+    <script>
+      document
+        .getElementById("newsletter-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
 
-  var form = this;
+          var form = this;
 
-  document.querySelector(".email-button").innerHTML = '<i class="fa-solid fa-check" style="color: #28a745;"></i>';
-  document.getElementById("email").disabled = true;
+          document.querySelector(".email-button").innerHTML =
+            '<i class="fa-solid fa-check" style="color: #28a745;"></i>';
+          document.getElementById("email").disabled = true;
 
-  setTimeout(function() {
-    form.submit();
-  }, 2500);
-});
-</script>
+          setTimeout(function () {
+            form.submit();
+          }, 2500);
+        });
+    </script>
   </body>
 </html>
