@@ -459,6 +459,10 @@ a {
   align-items: center; /* vertical */
 }
 
+.socailsListOption.button-glow {
+  padding: 0;
+}
+
 /*  ------   EVENTS PAGE  ------  */
 .events-div {
   color: white;
@@ -796,6 +800,14 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
 }
+.artist-grid .artist-socials-option {
+  width: 45px;
+  height: 45px;
+}
+
+.artist-grid .artist-socials-option .fa-brands {
+  font-size: 24px;
+}
 
 .artist{
   background-color: #f1f1f1;
@@ -1129,4 +1141,22 @@ font-size: 16px;
 .events-info-p {
     margin-bottom: 2px;
 }
+}
+
+
+/*Residents*/
+
+
+@media (max-width: 925px) {
+
+
+  .artist-grid .artist-socials-option {
+    width: 32px;
+    height: 32px;
+  }
+
+
+  .artist-grid .artist-socials-option .fa-brands {
+    font-size: 16px;
+  }
 }
