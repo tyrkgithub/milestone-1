@@ -968,6 +968,10 @@ font-size: 16px;
   background-image: url(../images/artist4.png);
 
 }
+.artist-pic3{
+  background-image: url(../images/artist5.png);
+
+}
 
 
 @media screen and (min-width: 450px) {
