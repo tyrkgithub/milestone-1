@@ -70,7 +70,6 @@
     </header>
 
     <main>
-
       <!-- Hero-->
       <section class="hero">
         <img src="assets/images/hero-logo.png" alt="Logo" class="hero-logo" />
@@ -84,10 +83,7 @@
             WORKSHOPS
           </p>
 
-          <form
-            class="col-12 col-md-5"
-            action="https://submit-form.com/x2sPxV7Ss"
-          >
+          <form class="col-12 col-md-5" id="newsletter-form">
             <div class="email-wrapper">
               <input
                 class="email"
@@ -102,7 +98,15 @@
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
             </div>
+               <p
+            id="newsletter-success"
+            style="display: none"
+            class="newsletter-success"
+          >
+            <i class="fa-solid fa-check"></i> You're signed up!
+          </p>
           </form>
+       
         </div>
       </section>
 
@@ -111,15 +115,37 @@
         <div class="events-wrapper">
           <div class="events-header">
             <h2 class="mission-h2">Events</h2>
-            <a href="events.html" class="mission-button button-glow">View All</a>
+            <a href="events.html" class="mission-button button-glow"
+              >View All</a
+            >
           </div>
 
           <div class="events-home-div">
-            <img class="events-home-img" src="assets/images/poster1.png" alt="event poster"/>
-            <img class="events-home-img" src="assets/images/poster2.png" alt="event poster"/>
-            <img class="events-home-img" src="assets/images/poster3.png" alt="event poster"/>
-            <img class="events-home-img" src="assets/images/poster4.png" alt="event poster"/>
-            <img class="events-home-img" src="assets/images/poster5.png" alt="event poster"/>
+            <img
+              class="events-home-img"
+              src="assets/images/poster1.png"
+              alt="event poster"
+            />
+            <img
+              class="events-home-img"
+              src="assets/images/poster2.png"
+              alt="event poster"
+            />
+            <img
+              class="events-home-img"
+              src="assets/images/poster3.png"
+              alt="event poster"
+            />
+            <img
+              class="events-home-img"
+              src="assets/images/poster4.png"
+              alt="event poster"
+            />
+            <img
+              class="events-home-img"
+              src="assets/images/poster5.png"
+              alt="event poster"
+            />
           </div>
         </div>
       </section>
@@ -224,15 +250,37 @@
         <div class="events-wrapper">
           <div class="events-header">
             <h2 class="mission-h2">Residents</h2>
-            <a href="residents.html" class="mission-button button-glow">View All</a>
+            <a href="residents.html" class="mission-button button-glow"
+              >View All</a
+            >
           </div>
 
           <div class="events-home-div">
-            <img class="events-home-img" src="assets/images/artist1.png" alt="artist picture"/>
-            <img class="events-home-img" src="assets/images/artist2.png" alt="artist picture"/>
-            <img class="events-home-img" src="assets/images/artist3.png" alt="artist picture"/>
-            <img class="events-home-img" src="assets/images/artist4.png" alt="artist picture"/>
-            <img class="events-home-img" src="assets/images/artist5.png" alt="artist picture"/>
+            <img
+              class="events-home-img"
+              src="assets/images/artist1.png"
+              alt="artist picture"
+            />
+            <img
+              class="events-home-img"
+              src="assets/images/artist2.png"
+              alt="artist picture"
+            />
+            <img
+              class="events-home-img"
+              src="assets/images/artist3.png"
+              alt="artist picture"
+            />
+            <img
+              class="events-home-img"
+              src="assets/images/artist4.png"
+              alt="artist picture"
+            />
+            <img
+              class="events-home-img"
+              src="assets/images/artist5.png"
+              alt="artist picture"
+            />
           </div>
         </div>
       </section>
@@ -240,16 +288,17 @@
       <!-- Soundcloud Banner -->
       <section class="soundcloud">
         <div class="soundcloud-div">
-          <h2 class="soundcloud-h2">
-            NMAMLU are on Soundcloud
-
-          </h2>
+          <h2 class="soundcloud-h2">NMAMLU are on Soundcloud</h2>
           <p class="soundcloud-p">
-Check out our latest mixes over on our Soundcoud page.
+            Check out our latest mixes over on our Soundcoud page.
           </p>
-          <a href="https://soundcloud.com" rel="noopener" target="_blank" class="mission-button soundcloud-button button-glow">View All</a>
-
-
+          <a
+            href="https://soundcloud.com"
+            rel="noopener"
+            target="_blank"
+            class="mission-button soundcloud-button button-glow"
+            >View All</a
+          >
         </div>
       </section>
     </main>
@@ -364,6 +413,21 @@ Check out our latest mixes over on our Soundcoud page.
       };
     </script>
 
-    <!-- Scroll-->
+    <!-- Newsletter Script-->
+<!-- Newsletter Script -->
+<script>
+document.getElementById("newsletter-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  var form = this;
+
+  document.querySelector(".email-button").innerHTML = '<i class="fa-solid fa-check" style="color: #28a745;"></i>';
+  document.getElementById("email").disabled = true;
+
+  setTimeout(function() {
+    form.submit();
+  }, 2500);
+});
+</script>
   </body>
 </html>
