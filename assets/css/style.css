@@ -887,21 +887,7 @@ font-size: 16px;
   height: 30px;
 }
 
-.artist1{
-  background-image: url(../images/artist1.png);
-}
 
-.artist2{
-  background-image: url(../images/artist4.png);
-}
-
-.artist3{
-  background-image: url(../images/artist5.png);
-}
-
-.artist4{
-  background-image: url(../images/artist2.png);
-}
 
 .artist-ul{
   color: #f1f1f1;
@@ -959,22 +945,26 @@ font-size: 16px;
   padding: 0;
 }
 
-.artist-pic1{
-  background-image: url(../images/artist1.png);
+.artist-pic1,
+.artist1{
+  background-image: url(../images/artist1.webp);
  
 }
 
-.artist-pic2{
-  background-image: url(../images/artist4.png);
+.artist-pic2,
+.artist2{
+  background-image: url(../images/artist2.webp);
 
 }
-.artist-pic3{
-  background-image: url(../images/artist5.png);
+.artist-pic3,
+.artist3{
+  background-image: url(../images/artist3.webp);
 
 }
 
-.artist-pic4{
-  background-image: url(../images/prom-pig.jpg);
+.artist-pic4,
+.artist4{
+  background-image: url(../images/artist4.webp);
 
 }
 
