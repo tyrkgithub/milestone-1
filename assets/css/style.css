@@ -1058,6 +1058,68 @@ font-size: 16px;
 }
 
 
+/* Terms and Cond */
+.terms {
+  padding: 60px 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.terms-div {
+  max-width: 900px;
+  width: 100%;
+  line-height: 1.6;
+  background: rgba(255,255,255,0.03);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.terms-h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Date */
+.terms-date {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.terms-h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  color: rgba(204, 0, 255, 0.9);
+  letter-spacing: 0.5px;
+}
+
+.terms-p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #e6e6e6;
+}
+
+/* Lists */
+.terms-ul {
+  margin: 15px 0 20px 20px;
+  padding: 0;
+}
+
+.terms-li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #e6e6e6;
+}
+
+
 @media screen and (min-width: 450px) {
   .artist-list-mobile{
     display: none;
