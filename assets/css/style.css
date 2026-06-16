@@ -973,6 +973,12 @@ font-size: 16px;
 
 }
 
+.artist-pic4{
+  background-image: url(../images/prom-pig.jpg);
+
+}
+
+
 
 @media screen and (min-width: 450px) {
   .artist-list-mobile{
@@ -1094,7 +1100,7 @@ font-size: 16px;
   }
 
   .soundcloud {
-    height: 250px;
+    height: 220px;
   }
 }
 
