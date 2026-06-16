@@ -129,7 +129,7 @@ body {
 
 .hero {
   height: 500px;
-  background-image: url("../images/hero-bg.png");
+  background-image: url("../images/hero-bg.webp");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -397,7 +397,7 @@ form {
 .soundcloud {
   height: 280px;
   text-align: center;
-  background-image: url("../images/soundcloud.png");
+  background-image: url("../images/soundcloud.webp");
 }
 
 .soundcloud-div {
