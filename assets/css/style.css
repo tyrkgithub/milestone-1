@@ -988,7 +988,6 @@ font-size: 16px;
 /* Privacy Section Wrapper */
 .privacy {
   padding: 60px 20px;
-  background-color: #0f0f0f; /* adjust if your site uses a different base */
   color: #ffffff;
   display: flex;
   justify-content: center;
