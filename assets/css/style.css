@@ -435,6 +435,11 @@ form {
 
 /* Footer*/
 
+.footer-a{
+  display: flex;
+  justify-content: center;
+}
+
 .footer-link{
   color: white;
 }
@@ -461,6 +466,11 @@ form {
   background-color: aliceblue;
   border-radius: 50%;
   margin: 5px;
+}
+
+.socailsListOption:hover img {
+  filter: brightness(0) invert(1);
+  transition: 0.2s ease;
 }
 
 .fa-brands {
