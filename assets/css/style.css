@@ -983,6 +983,80 @@ font-size: 16px;
 
 }
 
+/* --- Privacy Policy --- */
+
+/* Privacy Section Wrapper */
+.privacy {
+  padding: 60px 20px;
+  background-color: #0f0f0f; /* adjust if your site uses a different base */
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+/* Content Container */
+.privacy-div {
+  max-width: 900px;
+  width: 100%;
+  line-height: 1.6;
+  background: rgba(255,255,255,0.03);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Main Title */
+.privacy-h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Effective Date */
+.privacy-date {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+/* Section Headings */
+.privacy-h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  color: rgba(204, 0, 255, 0.9); /* matches your pink accent vibe */
+  letter-spacing: 0.5px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+}
+
+/* Paragraph Text */
+.privacy-p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #e6e6e6;
+}
+
+/* Lists */
+.privacy-ul {
+  margin: 15px 0 20px 20px;
+  padding: 0;
+}
+
+.privacy-li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #e6e6e6;
+}
+
+.privacy-li strong {
+  color: #ffffff;
+}
 
 
 @media screen and (min-width: 450px) {
