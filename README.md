@@ -106,13 +106,17 @@ These design decisions ensure visitors can quickly access information regardless
 
 ### Wireframes VS Final Product
 
+#### Desktop
+
 | Page | Wireframe | Final Product |
 |------|-----------|--------------|
-| Home | ![Home Wireframe] <img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" /> | ![Home Final] <img width="2360" height="4518" alt="tyrkgithub github io_milestone-1_index html" src="https://github.com/user-attachments/assets/660f5b66-90dc-4c2c-93c2-bd540b9c8f3e" />
+| Home | [Home Wireframe] <img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" /> | [Home Final] <img width="2360" height="4518" alt="tyrkgithub github io_milestone-1_index html" src="https://github.com/user-attachments/assets/660f5b66-90dc-4c2c-93c2-bd540b9c8f3e" />
 |
-| Events | ![Events Wireframe](assets/readme/wireframe-events.png) | ![Events Final](assets/readme/events-final.png) |
-| Residents | ![Residents Wireframe](assets/readme/wireframe-residents.png) | ![Residents Final](assets/readme/residents-final.png) |
-| Contact | ![Contact Wireframe](assets/readme/wireframe-contact.png) | ![Contact Final](assets/readme/contact-final.png) |
+| Events | ![Events Wireframe] <img width="1440" height="3046" alt="Desktop - Residents" src="https://github.com/user-attachments/assets/72dc4a89-da58-435f-9b7c-d807d024048e" /> | ![Events Final](assets/readme/events-final.png) |
+| Residents | [Residents Wireframe](assets/readme/wireframe-residents.png) | [Residents Final] <img width="2360" height="2370" alt="tyrkgithub github io_milestone-1_residents html (1)" src="https://github.com/user-attachments/assets/f12cca77-a70d-4268-a022-55c42fbdda10" />
+ |
+| Contact | ![Contact Wireframe] <img width="1440" height="3273" alt="Desktop - Contact" src="https://github.com/user-attachments/assets/0a9f1ba4-0687-4cc3-afe4-6a440f3a074d" />  | ![Contact Final] <img width="2360" height="4190" alt="tyrkgithub github io_milestone-1_contact html" src="https://github.com/user-attachments/assets/fee7b71f-5100-48ae-bdfd-0f0ff29b19d3" />
+ |
 
 #### Home
 
@@ -191,7 +195,7 @@ These design decisions ensure visitors can quickly access information regardless
 
 #### Contact
 
-<img width="1440" height="3273" alt="Desktop - Contact" src="https://github.com/user-attachments/assets/0a9f1ba4-0687-4cc3-afe4-6a440f3a074d" />
+
 <br>
 (Desktop)
 <p> </p>
