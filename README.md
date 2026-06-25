@@ -103,7 +103,6 @@ These design decisions ensure visitors can quickly access information regardless
 |------|-----------|--------------|
 | Home | [Home Wireframe] <img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" /> | [Home Final] <img width="2360" height="4518" alt="tyrkgithub github io_milestone-1_index html" src="https://github.com/user-attachments/assets/660f5b66-90dc-4c2c-93c2-bd540b9c8f3e" /> |
 | Home Mission Statement |  <img width="1440" height="3752" alt="Desktop - Home (Modal)" src="https://github.com/user-attachments/assets/bb5c1bc6-2440-4018-bf70-3cdb05edce80" />|<img width="3328" height="5002" alt="tyrkgithub github io_milestone-1_index-mission html" src="https://github.com/user-attachments/assets/b7fab768-2228-4f6f-8c2f-304f3cc93c00" /> |
-
 | Events | ![Events Wireframe] <img width="1440" height="3046" alt="Desktop - Residents" src="https://github.com/user-attachments/assets/72dc4a89-da58-435f-9b7c-d807d024048e" /> | ![Events Final](assets/readme/events-final.png) |
 | Residents | [Residents Wireframe](assets/readme/wireframe-residents.png) | [Residents Final] <img width="2360" height="2370" alt="tyrkgithub github io_milestone-1_residents html (1)" src="https://github.com/user-attachments/assets/f12cca77-a70d-4268-a022-55c42fbdda10" /> |
 | Contact | ![Contact Wireframe] <img width="1440" height="3273" alt="Desktop - Contact" src="https://github.com/user-attachments/assets/0a9f1ba4-0687-4cc3-afe4-6a440f3a074d" />  | ![Contact Final] <img width="2360" height="4190" alt="tyrkgithub github io_milestone-1_contact html" src="https://github.com/user-attachments/assets/fee7b71f-5100-48ae-bdfd-0f0ff29b19d3" /> |
@@ -114,31 +113,15 @@ These design decisions ensure visitors can quickly access information regardless
 
 | Page | Wireframe | Final Product |
 |------|-----------|--------------|
-| Home | <img width="360" height="1690" alt="Mobile - Home" src="https://github.com/user-attachments/assets/8b2a5d20-395b-4eca-ad3a-6c57a98dffd2" /> | [Home Final] <img width="1116" height="5334" alt="tyrkgithub github io_milestone-1_index html(Galaxy S8)" src="https://github.com/user-attachments/assets/0c428e9a-2653-4c94-902e-29b1d82abd47" />
+| Home | <img width="360" height="1690" alt="Mobile - Home" src="https://github.com/user-attachments/assets/8b2a5d20-395b-4eca-ad3a-6c57a98dffd2" /> | [Home Final] <img width="1116" height="5334" alt="tyrkgithub github io_milestone-1_index html(Galaxy S8)" src="https://github.com/user-attachments/assets/0c428e9a-2653-4c94-902e-29b1d82abd47" />|
+| Residents | <img width="368" height="1464" alt="Mobile - Residents" src="https://github.com/user-attachments/assets/74b9791b-e193-4ced-ac9c-e35ffea32c7d" /> | <img width="1116" height="3672" alt="tyrkgithub github io_milestone-1_residents html(Galaxy S8)" src="https://github.com/user-attachments/assets/4dd4ed6e-89ed-41b9-b2e8-c11ede753d93" />
 |
 
 <br>
 
-<img width="360" height="1835" alt="Mobile - Home (Modal)" src="https://github.com/user-attachments/assets/e9a6154c-a96a-44e5-a3b4-8d574ea193a1" />
-<br>
-(Mobile with open Mission Statement)
-<p> </p>
-<br>
-<p> </p>
+
 
 #### Residents
-
-<img width="1440" height="3046" alt="Desktop - Residents" src="https://github.com/user-attachments/assets/72dc4a89-da58-435f-9b7c-d807d024048e" />
-<br>
-(Desktop)
-<p> </p>
-<br>
-
-<img width="1440" height="3046" alt="Desktop - Residents (Filter)" src="https://github.com/user-attachments/assets/d750086c-3ffd-4b47-8e1c-144f15f1d705" />
-<br>
-(Desktop with filter)
-<p> </p>
-<br>
 
 <img width="368" height="1464" alt="Mobile - Residents" src="https://github.com/user-attachments/assets/74b9791b-e193-4ced-ac9c-e35ffea32c7d" />
 <br>
