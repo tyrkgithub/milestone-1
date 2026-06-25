@@ -121,18 +121,6 @@ These design decisions ensure visitors can quickly access information regardless
 
 <br>
 
-
-
-
-
-
-
-
-
-
-
-
-
 ### Prototype
 
 As well as creating high fidelity mock ups to guide me in the process I also added interaction links on Figma, which has allowed me to create a working prototype.
@@ -230,9 +218,7 @@ You can read more in depth about how I tested this application by reading the [T
 
 ### Media
 
-#### Animations
 
-* Animations on the contact page from [here](https://www.google.com)
 
 #### Images
 
