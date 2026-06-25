@@ -104,7 +104,15 @@ These design decisions ensure visitors can quickly access information regardless
 
 
 
-### Wireframes
+### Wireframes VS Final Product
+
+| Page | Wireframe | Final Product |
+|------|-----------|--------------|
+| Home | ![Home Wireframe] <img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" /> | ![Home Final] <img width="2360" height="4518" alt="tyrkgithub github io_milestone-1_index html" src="https://github.com/user-attachments/assets/660f5b66-90dc-4c2c-93c2-bd540b9c8f3e" />
+|
+| Events | ![Events Wireframe](assets/readme/wireframe-events.png) | ![Events Final](assets/readme/events-final.png) |
+| Residents | ![Residents Wireframe](assets/readme/wireframe-residents.png) | ![Residents Final](assets/readme/residents-final.png) |
+| Contact | ![Contact Wireframe](assets/readme/wireframe-contact.png) | ![Contact Final](assets/readme/contact-final.png) |
 
 #### Home
 
