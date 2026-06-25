@@ -37,6 +37,9 @@ https://tyrkgithub.github.io/milestone-1
 
 ## Project Goals
 
+At the begining of this project, I had a meeting with the4 client to better understand their needs and wants from the website. The meeting presentation aliong wiht notes taken can be viewed here. [Website Design and Development Meeting.pdf](https://github.com/user-attachments/files/29354806/Website.Design.and.Development.Meeting.pdf)
+
+
 The purpose of the No More All Male Line Ups (NMAMLU) website is to establish a professional online presence for the organisation while raising awareness of gender inequality within the electronic music industry. During the client discovery process, several goals were identified, including promoting upcoming events, showcasing resident artists, educating visitors on industry inequalities, and providing a central source of information without requiring users to navigate social media platforms.
 <br>
 
