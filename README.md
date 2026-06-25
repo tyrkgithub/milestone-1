@@ -107,7 +107,8 @@ These design decisions ensure visitors can quickly access information regardless
 | Home | <img src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" width="300"> | <img src="https://github.com/user-attachments/assets/660f5b66-90dc-4c2c-93c2-bd540b9c8f3e" width="300"> |
 | Home Mission Statement | <img src="https://github.com/user-attachments/assets/bb5c1bc6-2440-4018-bf70-3cdb05edce80" width="300"> | <img src="https://github.com/user-attachments/assets/b7fab768-2228-4f6f-8c2f-304f3cc93c00" width="300"> |
 | Events | <img src="https://github.com/user-attachments/assets/97097358-b12e-4bf2-a1a8-53e2acc46a8b" width="300"> | <img src="https://github.com/user-attachments/assets/adc01ad4-46ac-4b7f-a725-1a5a13818c1a" width="300"> |
-| Residents | <img src="https://github.com/user-attachments/assets/74b9791b-e193-4ced-ac9c-e35ffea32c7d" width="300"> | <img src="https://github.com/user-attachments/assets/f12cca77-a70d-4268-a022-55c42fbdda10" width="300"> |
+| Residents | <img width="1440" height="3046" alt="Desktop - Residents" src="https://github.com/user-attachments/assets/33f648d4-eaf9-48e5-82fe-4718b667c3ee" width="300" />
+ | <img src="https://github.com/user-attachments/assets/f12cca77-a70d-4268-a022-55c42fbdda10" width="300"> |
 | Contact | <img src="https://github.com/user-attachments/assets/0a9f1ba4-0687-4cc3-afe4-6a440f3a074d" width="300"> | <img src="https://github.com/user-attachments/assets/fee7b71f-5100-48ae-bdfd-0f0ff29b19d3" width="300"> |
 
 <br>
