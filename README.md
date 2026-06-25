@@ -70,6 +70,9 @@ As a mobile user, I want the website to be fully responsive so that I can access
 ## Design Choices
 
 #### Colour Palette
+
+<img width="1564" height="840" alt="AdobeColor-My Color Theme" src="https://github.com/user-attachments/assets/3b080772-4bb9-46f7-80fe-f7d144323f02" />
+
 The website uses a bold pink and black colour palette inspired by NMAMLU's existing branding. This colour combination reflects the organisation's energetic presence within electronic music culture while helping important calls-to-action stand out.
 The high-contrast palette also improves readability and accessibility while reinforcing brand recognition.
 <br>
