@@ -40,6 +40,16 @@ A template to use for the starting point of my README files for the duration of 
 
 ### Project Goals
 
+The purpose of the No More All Male Line Ups (NMAMLU) website is to establish a professional online presence for the organisation while raising awareness of gender inequality within the electronic music industry. During the client discovery process, several goals were identified, including promoting upcoming events, showcasing resident artists, educating visitors on industry inequalities, and providing a central source of information without requiring users to navigate social media platforms.
+<br>
+
+* Increase visibility of the NMAMLU movement.
+* Educate visitors about representation issues within electronic music.
+* Showcase resident artists and provide links to their work.
+* Promote upcoming events, workshops and open deck sessions.
+* Provide an easy method of contact for organisations and potential collaborators.
+* Create a platform that can continue to grow alongside the organisation.
+
 ### Parental Goals
 
 ### Player Goals
@@ -48,7 +58,51 @@ A template to use for the starting point of my README files for the duration of 
 
 ### User Stories
 
+#### First-Time Visitor
+As a first-time visitor, I want to quickly understand what No More All Male Line Ups is, so that I can learn about the organisation's mission and values.
+#### Event Attendee
+As someone interested in electronic music events, I want to view upcoming events and workshops so that I can participate in future NMAMLU activities.
+#### Potential Resident Artist
+As a DJ or artist interested in getting involved, I want to browse resident artists and their genres so that I can understand the type of talent represented by the organisation.
+#### Organisation or Promoter
+As an event organiser, I want to find contact information so that I can enquire about collaborations, workshops, or artist bookings.
+#### Supporter
+As someone who supports diversity in music, I want to learn about industry inequalities through statistics and information so that I can better understand the purpose of the movement.
+#### Mobile User
+As a mobile user, I want the website to be fully responsive so that I can access content easily from any device.
+
+
+
 ### Design Choices
+
+#### Colour Palette
+The website uses a bold pink and black colour palette inspired by NMAMLU's existing branding. This colour combination reflects the organisation's energetic presence within electronic music culture while helping important calls-to-action stand out.
+The high-contrast palette also improves readability and accessibility while reinforcing brand recognition.
+<br>
+#### Typography
+The primary typeface used throughout the website is Bebas Neue, selected following discussions with the client regarding visual style and existing branding materials. The bold uppercase appearance creates strong visual hierarchy and reflects the underground club culture associated with electronic music.
+<br>
+#### Visual Style
+The client expressed a desire for the site to feel:
+* Bold
+* Energetic
+* Music-focused
+* Professional
+* Informative
+Rather than creating a community platform or membership site, the website focuses on presenting information clearly and directing users toward events, artists, and educational content.
+<br>
+####Layout
+A responsive mobile-first approach was used throughout development.
+Key layout decisions included:
+* Simple navigation structure.
+* Clear call-to-action buttons.
+* Responsive artist grids.
+* Event cards with expandable information.
+* Modal windows for additional event details.
+* Separate desktop and mobile layouts where required.
+These design decisions ensure visitors can quickly access information regardless of screen size.
+
+
 
 ### Wireframes
 
