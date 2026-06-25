@@ -225,7 +225,39 @@ https://github.com/user-attachments/assets/e3d112ca-6dfb-4a7f-afc4-01af537354a2 
 
 ### Existing Features
 
+#### Navigation Bar
+* Responsive navigation menu.
+* Consistent across all pages.
+* Allows users to quickly access key areas of the website.
+#### Hero Section
+* Introduces NMAMLU immediately.
+* Highlights the organisation's mission.
+#### Residents Section
+* Displays resident artists.
+* Includes artist images, loaction and external links.
+####Events Section
+* Displays upcoming events.
+* Modal functionality provides additional event information.
+* Includes event posters and descriptions.
+#### Newsletter Sign-Up
+* Encourages users to stay informed about future events and updates.
+#### Responsive Design
+Optimised for:
+*Mobile devices
+*Tablets
+*Desktop screens
+
 ### Future Feature Implementation
+
+* Dynamic event management using a CMS.
+* Artist profile pages.
+* Search and filter functionality for residents.
+* Integration with ticketing platforms.
+* Gallery section featuring photographs from previous events.
+* Embedded SoundCloud mixes - Soundcloud need to grant permission before being allowed access to the APIs.
+* Embedded YouTube videos.
+* Newsletter integration with a mailing platform.
+* Accessibility enhancements following user testing.
 
 
 ## Technoligies Used
