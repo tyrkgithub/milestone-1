@@ -10,9 +10,6 @@ A template to use for the starting point of my README files for the duration of 
 ## Table of Contents
 ### [UX](https://github.com/tyrkgithub/milestone-1#ux-1)
 ##### [Project Goals](https://github.com/tyrkgithub/milestone-1#project-goals-1)
-##### [Parental Goals](https://github.com/tyrkgithub/milestone-1#parental-goals-1)
-##### [Player Goals](https://github.com/tyrkgithub/milestone-1#player-goals-1)
-##### [Developer and Business Goals](https://github.com/tyrkgithub/milestone-1#developer-and-business-goals-1)
 ##### [User Stories](https://github.com/tyrkgithub/milestone-1#user-stories-1)
 ##### [Design Choices](https://github.com/tyrkgithub/milestone-1#design-choices-1)
 ##### [Wireframes](https://github.com/tyrkgithub/milestone-1#wireframes-1)
@@ -49,12 +46,6 @@ The purpose of the No More All Male Line Ups (NMAMLU) website is to establish a 
 * Promote upcoming events, workshops and open deck sessions.
 * Provide an easy method of contact for organisations and potential collaborators.
 * Create a platform that can continue to grow alongside the organisation.
-
-### Parental Goals
-
-### Player Goals
-
-### Developer and Business Goals
 
 ### User Stories
 
@@ -112,25 +103,17 @@ These design decisions ensure visitors can quickly access information regardless
 |------|-----------|--------------|
 | Home | [Home Wireframe] <img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" /> | [Home Final] <img width="2360" height="4518" alt="tyrkgithub github io_milestone-1_index html" src="https://github.com/user-attachments/assets/660f5b66-90dc-4c2c-93c2-bd540b9c8f3e" />
 |
+| Home Mission Statement |  <img width="1440" height="3752" alt="Desktop - Home (Modal)" src="https://github.com/user-attachments/assets/bb5c1bc6-2440-4018-bf70-3cdb05edce80" />|<img width="3328" height="5002" alt="tyrkgithub github io_milestone-1_index-mission html" src="https://github.com/user-attachments/assets/b7fab768-2228-4f6f-8c2f-304f3cc93c00" />
+|
+
 | Events | ![Events Wireframe] <img width="1440" height="3046" alt="Desktop - Residents" src="https://github.com/user-attachments/assets/72dc4a89-da58-435f-9b7c-d807d024048e" /> | ![Events Final](assets/readme/events-final.png) |
 | Residents | [Residents Wireframe](assets/readme/wireframe-residents.png) | [Residents Final] <img width="2360" height="2370" alt="tyrkgithub github io_milestone-1_residents html (1)" src="https://github.com/user-attachments/assets/f12cca77-a70d-4268-a022-55c42fbdda10" />
  |
 | Contact | ![Contact Wireframe] <img width="1440" height="3273" alt="Desktop - Contact" src="https://github.com/user-attachments/assets/0a9f1ba4-0687-4cc3-afe4-6a440f3a074d" />  | ![Contact Final] <img width="2360" height="4190" alt="tyrkgithub github io_milestone-1_contact html" src="https://github.com/user-attachments/assets/fee7b71f-5100-48ae-bdfd-0f0ff29b19d3" />
  |
 
-#### Home
 
-<img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" />
-<br>
-(Desktop)
-<p> </p>
-<br>
 
-<img width="1440" height="3752" alt="Desktop - Home (Modal)" src="https://github.com/user-attachments/assets/bb5c1bc6-2440-4018-bf70-3cdb05edce80" />
-<br>
-(Desktop with open Mission Statement)
-<p> </p>
-<br>
 
 <img width="360" height="1690" alt="Mobile - Home" src="https://github.com/user-attachments/assets/8b2a5d20-395b-4eca-ad3a-6c57a98dffd2" />
 <br>
