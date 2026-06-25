@@ -4,7 +4,7 @@ A template to use for the starting point of my README files for the duration of 
 
 
 ## Link
-[No More All Male Line Ups]https://tyrkgithub.github.io/milestone-1
+https://tyrkgithub.github.io/milestone-1
 
 
 ## Table of Contents
@@ -33,9 +33,9 @@ A template to use for the starting point of my README files for the duration of 
 ##### [Acknowledgments](https://github.com/tyrkgithub/milestone-1#ackowledgments)
 
 
-## UX
+# UX
 
-### Project Goals
+## Project Goals
 
 The purpose of the No More All Male Line Ups (NMAMLU) website is to establish a professional online presence for the organisation while raising awareness of gender inequality within the electronic music industry. During the client discovery process, several goals were identified, including promoting upcoming events, showcasing resident artists, educating visitors on industry inequalities, and providing a central source of information without requiring users to navigate social media platforms.
 <br>
@@ -47,7 +47,7 @@ The purpose of the No More All Male Line Ups (NMAMLU) website is to establish a 
 * Provide an easy method of contact for organisations and potential collaborators.
 * Create a platform that can continue to grow alongside the organisation.
 
-### User Stories
+## User Stories
 
 #### First-Time Visitor
 As a first-time visitor, I want to quickly understand what No More All Male Line Ups is, so that I can learn about the organisation's mission and values.
@@ -64,7 +64,7 @@ As a mobile user, I want the website to be fully responsive so that I can access
 
 
 
-### Design Choices
+## Design Choices
 
 #### Colour Palette
 The website uses a bold pink and black colour palette inspired by NMAMLU's existing branding. This colour combination reflects the organisation's energetic presence within electronic music culture while helping important calls-to-action stand out.
@@ -95,90 +95,43 @@ These design decisions ensure visitors can quickly access information regardless
 
 
 
-### Wireframes VS Final Product
+## Wireframes VS Final Product
 
-#### Desktop
+### Desktop
 
 | Page | Wireframe | Final Product |
 |------|-----------|--------------|
-| Home | [Home Wireframe] <img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" /> | [Home Final] <img width="2360" height="4518" alt="tyrkgithub github io_milestone-1_index html" src="https://github.com/user-attachments/assets/660f5b66-90dc-4c2c-93c2-bd540b9c8f3e" /> |
+| Home |  <img width="1440" height="2609" alt="Desktop - Home" src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" /> | <img width="2360" height="4518" alt="tyrkgithub github io_milestone-1_index html" src="https://github.com/user-attachments/assets/660f5b66-90dc-4c2c-93c2-bd540b9c8f3e" /> |
 | Home Mission Statement |  <img width="1440" height="3752" alt="Desktop - Home (Modal)" src="https://github.com/user-attachments/assets/bb5c1bc6-2440-4018-bf70-3cdb05edce80" />|<img width="3328" height="5002" alt="tyrkgithub github io_milestone-1_index-mission html" src="https://github.com/user-attachments/assets/b7fab768-2228-4f6f-8c2f-304f3cc93c00" /> |
-| Events | ![Events Wireframe] <img width="1440" height="3046" alt="Desktop - Residents" src="https://github.com/user-attachments/assets/72dc4a89-da58-435f-9b7c-d807d024048e" /> | ![Events Final](assets/readme/events-final.png) |
-| Residents | [Residents Wireframe](assets/readme/wireframe-residents.png) | [Residents Final] <img width="2360" height="2370" alt="tyrkgithub github io_milestone-1_residents html (1)" src="https://github.com/user-attachments/assets/f12cca77-a70d-4268-a022-55c42fbdda10" /> |
-| Contact | ![Contact Wireframe] <img width="1440" height="3273" alt="Desktop - Contact" src="https://github.com/user-attachments/assets/0a9f1ba4-0687-4cc3-afe4-6a440f3a074d" />  | ![Contact Final] <img width="2360" height="4190" alt="tyrkgithub github io_milestone-1_contact html" src="https://github.com/user-attachments/assets/fee7b71f-5100-48ae-bdfd-0f0ff29b19d3" /> |
+| Events |  <img width="1440" height="2973" alt="Desktop - Events" src="https://github.com/user-attachments/assets/c79cfe80-08e1-4e2f-b11e-961801f5d76f" /> | <img width="2502" height="5766" alt="_Users_tia_Desktop_Level%205%20Diploma%20in%20Website%20Development%20and%20AI_vscode-projects_milestone-1_events html" src="https://github.com/user-attachments/assets/adc01ad4-46ac-4b7f-a725-1a5a13818c1a" />
+ |
+| Residents | (assets/readme/wireframe-residents.png) | <img width="2360" height="2370" alt="tyrkgithub github io_milestone-1_residents html (1)" src="https://github.com/user-attachments/assets/f12cca77-a70d-4268-a022-55c42fbdda10" /> |
+| Contact | <img width="1440" height="3273" alt="Desktop - Contact" src="https://github.com/user-attachments/assets/0a9f1ba4-0687-4cc3-afe4-6a440f3a074d" />  |  <img width="2360" height="4190" alt="tyrkgithub github io_milestone-1_contact html" src="https://github.com/user-attachments/assets/fee7b71f-5100-48ae-bdfd-0f0ff29b19d3" /> |
 
 <br>
 
-#### Mobile
+### Mobile
 
 | Page | Wireframe | Final Product |
 |------|-----------|--------------|
 | Home | <img width="360" height="1690" alt="Mobile - Home" src="https://github.com/user-attachments/assets/8b2a5d20-395b-4eca-ad3a-6c57a98dffd2" /> | [Home Final] <img width="1116" height="5334" alt="tyrkgithub github io_milestone-1_index html(Galaxy S8)" src="https://github.com/user-attachments/assets/0c428e9a-2653-4c94-902e-29b1d82abd47" />|
+| Events | <img width="368" height="1704" alt="Mobile - Events" src="https://github.com/user-attachments/assets/8893134e-717f-4c8e-a051-b862b535816a" /> | <img width="1116" height="6543" alt="_Users_tia_Desktop_Level%205%20Diploma%20in%20Website%20Development%20and%20AI_vscode-projects_milestone-1_events html(Galaxy S8)" src="https://github.com/user-attachments/assets/bdf13c97-9888-467f-a25d-fdcef1290c40" />
+|
 | Residents | <img width="368" height="1464" alt="Mobile - Residents" src="https://github.com/user-attachments/assets/74b9791b-e193-4ced-ac9c-e35ffea32c7d" /> | <img width="1116" height="3672" alt="tyrkgithub github io_milestone-1_residents html(Galaxy S8)" src="https://github.com/user-attachments/assets/4dd4ed6e-89ed-41b9-b2e8-c11ede753d93" />
+|
+| Contact | <img width="368" height="1971" alt="Mobile - Contact" src="https://github.com/user-attachments/assets/f89d9567-d504-4ddb-b0fa-9fb35e33c74f" /> | <img width="1116" height="6279" alt="tyrkgithub github io_milestone-1_contact html(Galaxy S8)" src="https://github.com/user-attachments/assets/b4d17f0b-2dc1-4d7f-b6f6-e18db7448211" />
+|
+| Hamburger |<img width="360" height="887" alt="Mobile - HamburgerBar" src="https://github.com/user-attachments/assets/38bed5eb-0ddb-4dc5-8bee-d4b65b7e93c3" /> | <img width="1080" height="2220" alt="tyrkgithub github io_milestone-1_index html(Galaxy S8) copy" src="https://github.com/user-attachments/assets/d0db0a4c-847b-4200-a2f8-47b69fb6e891" />
 |
 
 <br>
 
 
 
-#### Residents
-
-<img width="368" height="1464" alt="Mobile - Residents" src="https://github.com/user-attachments/assets/74b9791b-e193-4ced-ac9c-e35ffea32c7d" />
-<br>
-(Mobile)
-<p> </p>
-<br>
-
-<img width="368" height="1479" alt="Mobile - Residents (Filter)" src="https://github.com/user-attachments/assets/e67b57a2-a5c8-4c35-a351-22bdb2224724" />
-<br>
-(Mobile with filter)
-<p> </p>
-<br>
-<p> </p>
-
-#### Events
-
-<img width="1440" height="2973" alt="Desktop - Events" src="https://github.com/user-attachments/assets/c79cfe80-08e1-4e2f-b11e-961801f5d76f" />
-<br>
-(Desktop)
-<p> </p>
-<br>
-
-<img width="368" height="1704" alt="Mobile - Events" src="https://github.com/user-attachments/assets/8893134e-717f-4c8e-a051-b862b535816a" />
-<br>
-(Mobile)
-<p> </p>
-<br>
-
-<img width="368" height="1704" alt="Mobile - Events  (Description)" src="https://github.com/user-attachments/assets/48cb1965-2d57-4ed1-95fd-43c68a3941f6" />
-<br>
-(Mobile with description open)
-<p> </p>
-<br>
-<p> </p>
-
-#### Contact
 
 
-<br>
-(Desktop)
-<p> </p>
-<br>
 
-<img width="368" height="1971" alt="Mobile - Contact" src="https://github.com/user-attachments/assets/f89d9567-d504-4ddb-b0fa-9fb35e33c74f" />
-<br>
-(Mobile)
-<p> </p>
-<br>
-<p> </p>
 
-## Hamburger Menu
-
-<img width="360" height="887" alt="Mobile - HamburgerBar" src="https://github.com/user-attachments/assets/38bed5eb-0ddb-4dc5-8bee-d4b65b7e93c3" />
-<br>
-(Mobile)
-<p> </p>
-<br>
 
 
 
