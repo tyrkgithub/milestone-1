@@ -123,7 +123,8 @@ These design decisions ensure visitors can quickly access information regardless
 | Events | <img src="https://github.com/user-attachments/assets/8893134e-717f-4c8e-a051-b862b535816a" width="250"> | <img src="https://github.com/user-attachments/assets/bdf13c97-9888-467f-a25d-fdcef1290c40" width="250"> |
 | Residents | <img src="https://github.com/user-attachments/assets/74b9791b-e193-4ced-ac9c-e35ffea32c7d" width="250"> | <img src="https://github.com/user-attachments/assets/4dd4ed6e-89ed-41b9-b2e8-c11ede753d93" width="250"> |
 | Contact | <img src="https://github.com/user-attachments/assets/f89d9567-d504-4ddb-b0fa-9fb35e33c74f" width="250"> | <img src="https://github.com/user-attachments/assets/b4d17f0b-2dc1-4d7f-b6f6-e18db7448211" width="250"> |
-| Hamburger | <img src="https://github.com/user-attachments/assets/38bed5eb-0ddb-4dc5-8bee-d4b65b7e93c3" width="250"> | <img src="https://github.com/user-attachments/assets/d0db0a4c-847b-4200-a2f8-47b69fb6e91f" width="250"> |
+| Hamburger | <img src="https://github.com/user-attachments/assets/38bed5eb-0ddb-4dc5-8bee-d4b65b7e93c3" width="250"> | <img src="https://github.com/user-attachments/assets/23be28d1-5710-4186-9691-045591365f5b" width="250" >
+ |
 
 <br>
 
