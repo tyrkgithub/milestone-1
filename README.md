@@ -35,7 +35,6 @@ https://tyrkgithub.github.io/milestone-1
 * ##### [How to Deploy this Application](https://github.com/tyrkgithub/milestone-1#how-to-deploy-this-application-1)
   
 ### [Credits](https://github.com/tyrkgithub/milestone-1#credits-1)
-* ##### [Content](https://github.com/tyrkgithub/milestone-1#content-1)
 * ##### [Media](https://github.com/tyrkgithub/milestone-1#media-1)
 * ##### [Code](https://github.com/tyrkgithub/milestone-1#code-1)
 * ##### [Acknowledgments](https://github.com/tyrkgithub/milestone-1#ackowledgments)
@@ -194,6 +193,8 @@ Optimised for:
 * Embedded YouTube videos.
 * Newsletter integration with a mailing platform.
 * Accessibility enhancements following user testing.
+* Changing the hero imagery and titles on the Events, Residents and Contact pages to be more inline with the wireframe/prototype design.
+* Adding in futher artists onto the residents page.
 
 
 ## Technoligies Used
@@ -329,7 +330,7 @@ The website was tested using **Google Lighthouse** in Chrome DevTools to assess 
 
 From the information gained by completing the Lighthouse testing, the first place for me to look at implementing improvements would be the performace on the residents page.
 
-#### W3C HTML
+#### W3C HTML Validation
 
 | Page | Screenshot |
 |------|------------|
@@ -337,6 +338,13 @@ From the information gained by completing the Lighthouse testing, the first plac
 | Events | <img width="1366" height="8864" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fevents html" src="https://github.com/user-attachments/assets/96da2eb5-7aa7-42b1-a284-2b76a0103603" > |
 | Residents | <img width="1366" height="7394" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fresidents html" src="https://github.com/user-attachments/assets/bd4d81f4-8151-43c7-b223-2fb8b22068c0" > |
 | Contact |  <img width="1366" height="6560" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fcontact html" src="https://github.com/user-attachments/assets/2d4f3bb8-1dd8-46a2-b695-34978a5c175b" > |
+
+#### W3C CSS Validation
+
+I was unable to use this for validation due to an internal error
+
+<img width="516" height="93" alt="css validation error" src="https://github.com/user-attachments/assets/f5f1bbfc-0082-4626-a76a-c6c5d8ff7261" />
+
 
 
 ## Deployment
@@ -387,20 +395,25 @@ git clone https://github.com/tyrkgithub/milestone-1.git
 
 ## Credits
 
-### Content 
+This project was developed using a range of external resources, tools, and support to assist with design, development, testing, and deployment.
 
-* Images for the home page from [here](https://www.google.com)
+| Resource / Tool | Purpose | Link |
+|----------------|--------|------|
+| Google Fonts | Typography (Bebas Neue & Roboto) | https://fonts.google.com |
+| Font Awesome | Icons used throughout the website | https://fontawesome.com |
+| W3C Markup Validation Service | HTML validation and error checking | https://validator.w3.org |
+| Lighthouse (Chrome DevTools) | Performance, accessibility, and SEO testing | https://developer.chrome.com/docs/lighthouse/ |
+| GitHub Pages | Website deployment hosting | https://pages.github.com |
+| Visual Studio Code | Code editor used for development | https://code.visualstudio.com |
+| ChatGPT (OpenAI) | Assistance with debugging, documentation, and writing support | https://chat.openai.com |
 
-### Media
+
+###  Media
+
+All branding, logos, and imagery used for **No More All Male Line Ups** were provided by the organisation and remain their intellectual property. These assets were used with permission for the purpose of this educational project.
 
 
+##  Acknowledgements
 
-#### Images
+Special thanks to online documentation, tutorials, and developer communities that supported problem-solving and helped improve best practices throughout the development of this project. Feedback and testing from users was also invaluable in refining the final website.
 
-* Images on the contact page from [here](https://www.google.com)
-
-### Code
-
-* Code for buttons from [here](https://www.google.com)
-
-### Ackowledgments
