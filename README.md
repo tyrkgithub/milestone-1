@@ -213,6 +213,8 @@ Optimised for:
   - Used for social media icons and interface icons.
 - Google Fonts
   - Used to import the Bebas Neue and Roboto font families.
+- Formspark
+  - For newsletter sign ups, including email validation.
 
 ### Tools
 - Visual Studio Code
@@ -280,24 +282,32 @@ milestone-1/
 
 ## Testing
 
-### Maual Testing
+### Manual Testing
+
+Manual testing was carried out throughout the development of the website to ensure that all features worked as expected across different screen sizes and devices. This included checking layout responsiveness, navigation functionality, image scaling, and overall usability on mobile, tablet, and desktop views.
+
+Where issues or layout bugs were identified, these were resolved using CSS media queries to adjust styling for different screen widths and improve the user experience on smaller screens.
+
+In addition to personal testing, the live version of the website was shared with the client for review. This allowed them to test the site from a user perspective, identify any potential issues, and suggest any changes or improvements before final deployment.
+
+
 
 #### Solved Bugs
 
-1. Example Bug
+1. Email address sizing on small screens
 
-   * What the bug was
-   * How I solved the bug
+   * The email address on the contact page did have any added media queries so when viewed on a mobile screen it would not fit inside the page properly.
+   * Within the correct media screen query I implemented a different font size for email address.
   
 2. Example Bug
 
    * What the bug was
    * How I solved the bug
   
-3. Example Bug
+3. Not a bug but still something that needed fixing
 
-   * What the bug was
-   * How I solved the bug
+   * In the social icons and links, one of them was Eventree, but the client doesn't use Eventree
+   * I saw via their Instagram profile that they use Linktree. The issue with that was the Lintree icon is not supported by font awesome icons, so for the Lintree icon I used and SVG and added it's own css styling so tht it would still change from black to white on hover like the other icons do.
   
 
 ### Accessibility
@@ -314,6 +324,10 @@ The website was tested using **Google Lighthouse** in Chrome DevTools to assess 
 | Contact | 74 | 95 | 96 | 100 | <img width="457" height="759" alt="contact" src="https://github.com/user-attachments/assets/a1dc335b-179f-43e9-96d9-45595008da26" >|
 | Privacy | 76 | 95 | 100 | 100 | <img width="457" height="759" alt="privacy" src="https://github.com/user-attachments/assets/aaba68d0-2661-4330-9a3c-f9dea45ec4be" >|
 | Terms | 83 | 95 | 100 | 100 | <img width="457" height="759" alt="terms" src="https://github.com/user-attachments/assets/11609818-3799-40c4-b4fc-e5c29b273676" > |
+
+##### Summary
+
+From the information gained by completing the Lighthouse testing, the first place for me to look at implementing improvements would be the performace on the residents page.
 
 
 
