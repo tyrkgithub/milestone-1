@@ -101,7 +101,6 @@ Roboto is used for paragraphs, buttons, and supporting content. As a clean sans-
 The combination of these two typefaces provides a clear distinction between headings and body content, improves usability, and creates a consistent visual identity throughout the website.
 <br>
 
-<br>
 #### Layout
 A responsive mobile-first approach was used throughout development.
 Key layout decisions included:
