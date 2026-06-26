@@ -13,7 +13,7 @@ https://tyrkgithub.github.io/milestone-1
 
 ## Table of Contents
 ### [UX](https://github.com/tyrkgithub/milestone-1#ux-1)
-* ##### [Client Goals](https://github.com/tyrkgithub/milestone-1#client-goals-1)
+* ##### [Client Goals](https://github.com/tyrkgithub/milestone-1#client-meeting-1)
 * ##### [Project Goals](https://github.com/tyrkgithub/milestone-1#project-goals-1)
 * ##### [User Stories](https://github.com/tyrkgithub/milestone-1#user-stories-1)
 * ##### [Design Choices](https://github.com/tyrkgithub/milestone-1#design-choices-1)
@@ -41,9 +41,11 @@ https://tyrkgithub.github.io/milestone-1
 
 # UX
 
-## Client Goals
+## Client Meeting
 
-At the begining of this project, I had a meeting with the client to better understand their needs and wants from the website. The meeting presentation along with notes taken can be viewed here. [Website Design and Development Meeting.pdf](https://github.com/user-attachments/files/29354806/Website.Design.and.Development.Meeting.pdf)
+At the begining of this project, I had a meeting with the client to better understand their needs and wants from the website. Before our meeting, I created a presentation which helped me to gather all the information I needed to build their vision. The meeting presentation, along with notes taken can be viewed here.
+
+[Website Design and Development Meeting.pdf](https://github.com/user-attachments/files/29354806/Website.Design.and.Development.Meeting.pdf)
 
 ## Project Goals
 
