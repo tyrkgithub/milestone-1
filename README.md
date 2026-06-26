@@ -333,14 +333,10 @@ From the information gained by completing the Lighthouse testing, the first plac
 
 | Page | Screenshot |
 |------|------------|
-| Home | <img width="1366" height="10604" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Findex html" src="https://github.com/user-attachments/assets/f75d525c-09c2-4b72-a2bd-e48005a02579" >
- |
-| Events | <img width="1366" height="8864" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fevents html" src="https://github.com/user-attachments/assets/96da2eb5-7aa7-42b1-a284-2b76a0103603" >
- |
-| Residents | <img width="1366" height="7394" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fresidents html" src="https://github.com/user-attachments/assets/bd4d81f4-8151-43c7-b223-2fb8b22068c0"/>
- |
-| Contact |  <img width="1366" height="6560" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fcontact html" src="https://github.com/user-attachments/assets/2d4f3bb8-1dd8-46a2-b695-34978a5c175b" >
- |
+| Home | <img width="1366" height="10604" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Findex html" src="https://github.com/user-attachments/assets/f75d525c-09c2-4b72-a2bd-e48005a02579" >|
+| Events | <img width="1366" height="8864" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fevents html" src="https://github.com/user-attachments/assets/96da2eb5-7aa7-42b1-a284-2b76a0103603" > |
+| Residents | <img width="1366" height="7394" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fresidents html" src="https://github.com/user-attachments/assets/bd4d81f4-8151-43c7-b223-2fb8b22068c0" > |
+| Contact |  <img width="1366" height="6560" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fcontact html" src="https://github.com/user-attachments/assets/2d4f3bb8-1dd8-46a2-b695-34978a5c175b" > |
 
 
 ## Deployment
