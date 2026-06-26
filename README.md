@@ -299,10 +299,10 @@ In addition to personal testing, the live version of the website was shared with
    * The email address on the contact page did have any added media queries so when viewed on a mobile screen it would not fit inside the page properly.
    * Within the correct media screen query I implemented a different font size for email address.
   
-2. Example Bug
+2. Layout alignment issues with grid and flexbox
 
-   * What the bug was
-   * How I solved the bug
+   * Certain sections of the site were not centring correctly due to conflicting use of CSS Grid and Flexbox properties. This caused uneven spacing and misaligned content on some pages.
+   * I reviewed the layout structure and standardised the alignment approach by using Flexbox for component-level alignment and CSS Grid for page layout structure. This helped create more predictable and consistent positioning across the website.
   
 3. Not a bug but still something that needed fixing
 
@@ -329,6 +329,18 @@ The website was tested using **Google Lighthouse** in Chrome DevTools to assess 
 
 From the information gained by completing the Lighthouse testing, the first place for me to look at implementing improvements would be the performace on the residents page.
 
+#### W3C HTML
+
+| Page | Screenshot |
+|------|------------|
+| Home | <img width="1366" height="10604" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Findex html" src="https://github.com/user-attachments/assets/f75d525c-09c2-4b72-a2bd-e48005a02579" >
+ |
+| Events | <img width="1366" height="8864" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fevents html" src="https://github.com/user-attachments/assets/96da2eb5-7aa7-42b1-a284-2b76a0103603" >
+ |
+| Residents | <img width="1366" height="7394" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fresidents html" src="https://github.com/user-attachments/assets/bd4d81f4-8151-43c7-b223-2fb8b22068c0"/>
+ |
+| Contact |  <img width="1366" height="6560" alt="validator w3 org_nu__doc=https%3A%2F%2Ftyrkgithub github io%2Fmilestone-1%2Fcontact html" src="https://github.com/user-attachments/assets/2d4f3bb8-1dd8-46a2-b695-34978a5c175b" >
+ |
 
 
 ## Deployment
