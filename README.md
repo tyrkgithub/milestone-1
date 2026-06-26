@@ -25,9 +25,11 @@ https://tyrkgithub.github.io/milestone-1
 * ##### [Future Feature Implementation](https://github.com/tyrkgithub/milestone-1#future-feature-implementation-1)
 
 ### [Technologies Used](https://github.com/tyrkgithub/milestone-1#technoligies-used)
-* #### [Project Structure](https://github.com/tyrkgithub/milestone-1#project-structure)
+* ##### [Project Structure](https://github.com/tyrkgithub/milestone-1#project-structure)
 
 ### [Testing](https://github.com/tyrkgithub/milestone-1#testing-1)
+* ##### [Manual Testing](https://github.com/tyrkgithub/milestone-1#manual-testing-1)
+* ##### [Accessability](https://github.com/tyrkgithub/milestone-1#accessibility-1)
 
 ### [Deployment](https://github.com/tyrkgithub/milestone-1#deployment-1)
 * ##### [How to Deploy this Application](https://github.com/tyrkgithub/milestone-1#how-to-deploy-this-application-1)
@@ -278,14 +280,7 @@ milestone-1/
 
 ## Testing
 
-You can read more in depth about how I tested this application by reading the [Testing.md](https://github.com/tyrkgithub/ReadMeTemplate/blob/main/Testing.md)
-
-
-[External Testing](https://github.com/tyrkgithub/ReadMeTemplate/blob/main/Testing.md#external-validations-and-testing)
-
-[UX Testing](https://github.com/tyrkgithub/ReadMeTemplate/blob/main/Testing.md#user-experience-testing)
-
-[Solved Bugs (Extended)](https://github.com/tyrkgithub/ReadMeTemplate/blob/main/Testing.md#solved-bugs)
+### Maual Testing
 
 #### Solved Bugs
 
@@ -303,6 +298,22 @@ You can read more in depth about how I tested this application by reading the [T
 
    * What the bug was
    * How I solved the bug
+  
+
+### Accessibility
+
+#### Lighthouse
+
+The website was tested using **Google Lighthouse** in Chrome DevTools to assess performance, accessibility, best practices, and SEO.
+
+| Page | Performance | Accessibility | Best Practices | SEO | Screenshot |
+|------|------------|--------------|----------------|-----|------------|
+| Home | 78 | 96 | 100 | 100 | <img width="457" height="759" alt="Index" src="https://github.com/user-attachments/assets/05f0c4d0-4766-4d40-911e-754fb83ebb25">|
+| Events | 74 | 100 | 100 | 100 | <img width="457" height="759" alt="events" src="https://github.com/user-attachments/assets/cd611367-58bf-45f2-ae5f-24a55c644b76">|
+| Residents | 43 | 95 | 100 | 100 | <img width="457" height="759" alt="residents" src="https://github.com/user-attachments/assets/db7cf2f3-3827-49d6-bd09-813a0767c834" >|
+| Contact | 74 | 95 | 96 | 100 | <img width="457" height="759" alt="contact" src="https://github.com/user-attachments/assets/a1dc335b-179f-43e9-96d9-45595008da26" >|
+| Privacy | 76 | 95 | 100 | 100 | <img width="457" height="759" alt="privacy" src="https://github.com/user-attachments/assets/aaba68d0-2661-4330-9a3c-f9dea45ec4be" >|
+| Terms | 83 | 95 | 100 | 100 | <img width="457" height="759" alt="terms" src="https://github.com/user-attachments/assets/11609818-3799-40c4-b4fc-e5c29b273676" > |
 
 
 
