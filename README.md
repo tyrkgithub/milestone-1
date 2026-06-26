@@ -181,6 +181,64 @@ Optimised for:
 
 ## Technoligies Used
 
+### Languages
+- HTML5
+  - Used to create the semantic structure of the website.
+- CSS3
+  - Used for styling, responsive layouts, animations, and custom components.
+- JavaScript (ES6)
+  - Used to create interactive features including the navigation menu, event filtering, modals, and form validation.
+
+### Frameworks & Libraries
+- Bootstrap 5
+  - Used for the responsive navigation bar and layout utilities.
+- Font Awesome
+  - Used for social media icons and interface icons.
+- Google Fonts
+  - Used to import the Bebas Neue and Roboto font families.
+
+### Tools
+- Visual Studio Code
+  - Main code editor used throughout development.
+- Git
+  - Used for version control.
+- GitHub
+  - Used to host the repository and manage version history.
+- GitHub Pages
+  - Used to deploy the live website.
+
+### Design
+- Figma
+  - Used to plan layouts and design ideas.
+- Coolors
+  - Used to develop the website colour palette.
+
+### Validation & Testing
+- W3C HTML Validator
+- W3C CSS Validator
+- Lighthouse
+- Chrome DevTools
+
+### CSS Techniques
+
+- **CSS Grid**
+  - Used to create responsive page layouts and organise content into flexible grid structures.
+
+- **Flexbox**
+  - Used to align and distribute elements efficiently throughout the website.
+
+- **CSS Variables**
+  - Used to maintain consistent colours and styling while making the stylesheet easier to manage.
+
+- **Media Queries**
+  - Used to adapt the layout and styling for different screen sizes and devices.
+
+- **CSS Transitions & Hover Effects**
+  - Used to create smooth animations and improve user interaction and visual feedback.
+
+- **Responsive Design (Mobile First)**
+  - The website was developed using a mobile-first approach to ensure an accessible and consistent experience across all device sizes.
+
 
 ## Testing
 
