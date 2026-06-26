@@ -1,6 +1,10 @@
 # No More All Male Line Ups Web Application (Milestone 1)
 
-A template to use for the starting point of my README files for the duration of my Website Development studies. It includes a Title, a Link to the application, a Table of Contents, the User Experience, Features, Technologies Used, Testing, Deployment and Credits sections.
+**No More All Male Line Ups** is a responsive multi-page website created to promote awareness and inclusivity within the music and events industry. The project showcases events, resident artists, and key information about the movement, with the aim of highlighting and challenging the lack of gender diversity in line-ups.
+
+The website has been designed with a mobile-first approach and focuses on clear navigation, accessibility, and a strong visual identity. It includes multiple interactive features such as responsive layouts, event information displays, and a structured content hierarchy to ensure a smooth user experience across all devices.
+
+This project was built as part of a milestone development process and demonstrates skills in HTML, CSS, and JavaScript, along with responsive design principles and modern front-end development practices. This project will be forked, put onto it's own domain, and will be used as a real life website for the No More All Male Line Ups with regular updates and enhanchments. 
 
 
 ## Link
@@ -80,7 +84,12 @@ The website uses a bold pink and black colour palette inspired by NMAMLU's exist
 The high-contrast palette also improves readability and accessibility while reinforcing brand recognition.
 <br>
 #### Typography
-The primary typeface used throughout the website is Bebas Neue, selected following discussions with the client regarding visual style and existing branding materials. The bold uppercase appearance creates strong visual hierarchy and reflects the underground club culture associated with electronic music.
+Typography plays an important role in reinforcing the identity of No More All Male Line Ups. The website uses two complementary fonts from Google Fonts to create a bold, modern, and accessible user experience.
+##### Bebas Neue
+Bebas Neue is used for headings, titles, and navigation throughout the website. Its bold, condensed style reflects the energy of the music industry while creating strong visual hierarchy and ensuring key information stands out. The typeface complements the branding of the organisation and gives the website a confident, contemporary feel.
+#####Roboto
+Roboto is used for paragraphs, buttons, and supporting content. As a clean sans-serif font, it offers excellent readability across desktop and mobile devices. Its simple, modern appearance balances the boldness of Bebas Neue, making longer sections of text comfortable to read while maintaining a professional and accessible design.
+The combination of these two typefaces provides a clear distinction between headings and body content, improves usability, and creates a consistent visual identity throughout the website.
 <br>
 #### Visual Style
 The client expressed a desire for the site to feel:
