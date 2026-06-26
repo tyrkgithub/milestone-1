@@ -9,6 +9,7 @@ https://tyrkgithub.github.io/milestone-1
 
 ## Table of Contents
 ### [UX](https://github.com/tyrkgithub/milestone-1#ux-1)
+##### [Client Goals](https://github.com/tyrkgithub/milestone-1#client-goals-1)
 ##### [Project Goals](https://github.com/tyrkgithub/milestone-1#project-goals-1)
 ##### [User Stories](https://github.com/tyrkgithub/milestone-1#user-stories-1)
 ##### [Design Choices](https://github.com/tyrkgithub/milestone-1#design-choices-1)
@@ -20,6 +21,7 @@ https://tyrkgithub.github.io/milestone-1
 ##### [Future Feature Implementation](https://github.com/tyrkgithub/milestone-1#future-feature-implementation-1)
 
 ### [Technologies Used](https://github.com/tyrkgithub/milestone-1#technoligies-used)
+#### [Project Structure](https://github.com/tyrkgithub/milestone-1#project-structure)
 
 ### [Testing](https://github.com/tyrkgithub/milestone-1#testing-1)
 
@@ -35,12 +37,13 @@ https://tyrkgithub.github.io/milestone-1
 
 # UX
 
+## Client Goals
+
+At the begining of this project, I had a meeting with the client to better understand their needs and wants from the website. The meeting presentation along with notes taken can be viewed here. [Website Design and Development Meeting.pdf](https://github.com/user-attachments/files/29354806/Website.Design.and.Development.Meeting.pdf)
+
 ## Project Goals
 
-At the begining of this project, I had a meeting with the4 client to better understand their needs and wants from the website. The meeting presentation aliong wiht notes taken can be viewed here. [Website Design and Development Meeting.pdf](https://github.com/user-attachments/files/29354806/Website.Design.and.Development.Meeting.pdf)
-
-
-The purpose of the No More All Male Line Ups (NMAMLU) website is to establish a professional online presence for the organisation while raising awareness of gender inequality within the electronic music industry. During the client discovery process, several goals were identified, including promoting upcoming events, showcasing resident artists, educating visitors on industry inequalities, and providing a central source of information without requiring users to navigate social media platforms.
+Following my meeting with the client, I had a better understanding of what the websites purpose and funcationality will look like. The purpose of the No More All Male Line Ups (NMAMLU) website is to establish a professional online presence for the organisation while raising awareness of gender inequality within the electronic music industry. During the client discovery process, several goals were identified, including promoting upcoming events, showcasing resident artists, educating visitors on industry inequalities, and providing a central source of information without requiring users to navigate social media platforms.
 <br>
 
 * Increase visibility of the NMAMLU movement.
@@ -238,6 +241,36 @@ Optimised for:
 
 - **Responsive Design (Mobile First)**
   - The website was developed using a mobile-first approach to ensure an accessible and consistent experience across all device sizes.
+ 
+#### Project Structure
+
+milestone-1/
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── script.js
+│   │
+│   ├── images/
+│   │   ├── events/
+│   │   ├── residents/
+│   │   ├── gallery/
+│   │   ├── contact/
+│   │   └── (other image folders)
+│   │
+│   └── favicon/
+│
+├── index.html
+├── events.html
+├── residents.html
+├── contact.html
+├── privacy.html
+├── terms.html
+│
+├── README.md
+└── .gitignore
 
 
 ## Testing
