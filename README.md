@@ -272,7 +272,48 @@ You can read more in depth about how I tested this application by reading the [T
 
 ## Deployment
 
-### How to Deploy this Application
+This project was deployed using **GitHub Pages**.
+
+### Deploying to GitHub Pages
+
+To deploy the website:
+
+1. Log in to GitHub and navigate to the project's repository.
+2. Select the **Settings** tab.
+3. In the left-hand menu, click **Pages**.
+4. Under **Build and deployment**, ensure the **Source** is set to **Deploy from a branch**.
+5. Select the **main** branch.
+6. Set the folder to **/(root)**.
+7. Click **Save**.
+8. GitHub will begin deploying the website. After a few moments, a live URL will be generated at the top of the GitHub Pages settings page.
+
+
+### Forking the Repository
+
+To create your own copy of this repository:
+
+1. Log in to GitHub.
+2. Navigate to the repository.
+3. Click the **Fork** button in the top-right corner.
+4. GitHub will create a copy of the repository under your own account.
+
+
+### Cloning the Repository
+
+To clone the repository locally:
+
+1. Log in to GitHub and navigate to the repository.
+2. Click the green **Code** button.
+3. Copy the HTTPS URL.
+4. Open your preferred IDE or terminal.
+5. Navigate to the directory where you would like to store the project.
+6. Run the following command:
+
+```bash
+git clone https://github.com/tyrkgithub/milestone-1.git
+```
+
+7. Once cloned, open the project folder in your preferred code editor.
 
 
 ## Credits
