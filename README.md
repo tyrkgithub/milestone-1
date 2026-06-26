@@ -291,6 +291,9 @@ Where issues or layout bugs were identified, these were resolved using CSS media
 
 In addition to personal testing, the live version of the website was shared with the client for review. This allowed them to test the site from a user perspective, identify any potential issues, and suggest any changes or improvements before final deployment.
 
+#### Client Review
+
+I shared the website with the No More All Male Line Ups 4 team members and asked for feedback if they encountered any thing that broke. They reported that everything was working well their end and that they had no final change requests.
 
 
 #### Solved Bugs
