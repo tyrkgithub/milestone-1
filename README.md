@@ -244,23 +244,13 @@ Optimised for:
  
 #### Project Structure
 
+```text
 milestone-1/
-│
 ├── assets/
 │   ├── css/
 │   │   └── style.css
 │   │
-│   ├── js/
-│   │   └── script.js
-│   │
 │   ├── images/
-│   │   ├── events/
-│   │   ├── residents/
-│   │   ├── gallery/
-│   │   ├── contact/
-│   │   └── (other image folders)
-│   │
-│   └── favicon/
 │
 ├── index.html
 ├── events.html
@@ -271,6 +261,7 @@ milestone-1/
 │
 ├── README.md
 └── .gitignore
+```
 
 
 ## Testing
