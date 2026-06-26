@@ -76,6 +76,15 @@ As a mobile user, I want the website to be fully responsive so that I can access
 
 ## Design Choices
 
+#### Visual Style
+The client expressed a desire for the site to feel:
+* Bold
+* Energetic
+* Music-focused
+* Professional
+* Informative
+Rather than creating a community platform or membership site, the website focuses on presenting information clearly and directing users toward events, artists, and educational content.
+
 #### Colour Palette
 
 <img width="1564" height="840" alt="AdobeColor-My Color Theme" src="https://github.com/user-attachments/assets/3b080772-4bb9-46f7-80fe-f7d144323f02" />
@@ -87,18 +96,11 @@ The high-contrast palette also improves readability and accessibility while rein
 Typography plays an important role in reinforcing the identity of No More All Male Line Ups. The website uses two complementary fonts from Google Fonts to create a bold, modern, and accessible user experience.
 ##### Bebas Neue
 Bebas Neue is used for headings, titles, and navigation throughout the website. Its bold, condensed style reflects the energy of the music industry while creating strong visual hierarchy and ensuring key information stands out. The typeface complements the branding of the organisation and gives the website a confident, contemporary feel.
-#####Roboto
+##### Roboto
 Roboto is used for paragraphs, buttons, and supporting content. As a clean sans-serif font, it offers excellent readability across desktop and mobile devices. Its simple, modern appearance balances the boldness of Bebas Neue, making longer sections of text comfortable to read while maintaining a professional and accessible design.
 The combination of these two typefaces provides a clear distinction between headings and body content, improves usability, and creates a consistent visual identity throughout the website.
 <br>
-#### Visual Style
-The client expressed a desire for the site to feel:
-* Bold
-* Energetic
-* Music-focused
-* Professional
-* Informative
-Rather than creating a community platform or membership site, the website focuses on presenting information clearly and directing users toward events, artists, and educational content.
+
 <br>
 #### Layout
 A responsive mobile-first approach was used throughout development.
