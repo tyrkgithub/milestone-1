@@ -9,30 +9,30 @@ https://tyrkgithub.github.io/milestone-1
 
 ## Table of Contents
 ### [UX](https://github.com/tyrkgithub/milestone-1#ux-1)
-##### [Client Goals](https://github.com/tyrkgithub/milestone-1#client-goals-1)
-##### [Project Goals](https://github.com/tyrkgithub/milestone-1#project-goals-1)
-##### [User Stories](https://github.com/tyrkgithub/milestone-1#user-stories-1)
-##### [Design Choices](https://github.com/tyrkgithub/milestone-1#design-choices-1)
-##### [Wireframes](https://github.com/tyrkgithub/milestone-1#wireframes-1)
-##### [Prototype](https://github.com/tyrkgithub/milestone-1#prototype-1)
+* ##### [Client Goals](https://github.com/tyrkgithub/milestone-1#client-goals-1)
+* ##### [Project Goals](https://github.com/tyrkgithub/milestone-1#project-goals-1)
+* ##### [User Stories](https://github.com/tyrkgithub/milestone-1#user-stories-1)
+* ##### [Design Choices](https://github.com/tyrkgithub/milestone-1#design-choices-1)
+* ##### [Wireframes](https://github.com/tyrkgithub/milestone-1#wireframes-1)
+* ##### [Prototype](https://github.com/tyrkgithub/milestone-1#prototype-1)
 
 ### [Features](https://github.com/tyrkgithub/milestone-1#features-1)
-##### [Existing Features](https://github.com/tyrkgithub/milestone-1#existing-features-1)
-##### [Future Feature Implementation](https://github.com/tyrkgithub/milestone-1#future-feature-implementation-1)
+* ##### [Existing Features](https://github.com/tyrkgithub/milestone-1#existing-features-1)
+* ##### [Future Feature Implementation](https://github.com/tyrkgithub/milestone-1#future-feature-implementation-1)
 
 ### [Technologies Used](https://github.com/tyrkgithub/milestone-1#technoligies-used)
-#### [Project Structure](https://github.com/tyrkgithub/milestone-1#project-structure)
+* #### [Project Structure](https://github.com/tyrkgithub/milestone-1#project-structure)
 
 ### [Testing](https://github.com/tyrkgithub/milestone-1#testing-1)
 
 ### [Deployment](https://github.com/tyrkgithub/milestone-1#deployment-1)
-##### [How to Deploy this Application](https://github.com/tyrkgithub/milestone-1#how-to-deploy-this-application-1)
+* ##### [How to Deploy this Application](https://github.com/tyrkgithub/milestone-1#how-to-deploy-this-application-1)
   
 ### [Credits](https://github.com/tyrkgithub/milestone-1#credits-1)
-##### [Content](https://github.com/tyrkgithub/milestone-1#content-1)
-##### [Media](https://github.com/tyrkgithub/milestone-1#media-1)
-##### [Code](https://github.com/tyrkgithub/milestone-1#code-1)
-##### [Acknowledgments](https://github.com/tyrkgithub/milestone-1#ackowledgments)
+* ##### [Content](https://github.com/tyrkgithub/milestone-1#content-1)
+* ##### [Media](https://github.com/tyrkgithub/milestone-1#media-1)
+* ##### [Code](https://github.com/tyrkgithub/milestone-1#code-1)
+* ##### [Acknowledgments](https://github.com/tyrkgithub/milestone-1#ackowledgments)
 
 
 # UX
