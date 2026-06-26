@@ -110,8 +110,7 @@ These design decisions ensure visitors can quickly access information regardless
 | Home | <img src="https://github.com/user-attachments/assets/ab8a7d0e-5e85-49f6-9750-d2aed6f4229a" width="300"> | <img src="https://github.com/user-attachments/assets/660f5b66-90dc-4c2c-93c2-bd540b9c8f3e" width="300"> |
 | Home Mission Statement | <img src="https://github.com/user-attachments/assets/bb5c1bc6-2440-4018-bf70-3cdb05edce80" width="300"> | <img src="https://github.com/user-attachments/assets/b7fab768-2228-4f6f-8c2f-304f3cc93c00" width="300"> |
 | Events | <img src="https://github.com/user-attachments/assets/97097358-b12e-4bf2-a1a8-53e2acc46a8b" width="300"> | <img src="https://github.com/user-attachments/assets/adc01ad4-46ac-4b7f-a725-1a5a13818c1a" width="300"> |
-| Residents | <img width="1440" height="3046" alt="Desktop - Residents" src="https://github.com/user-attachments/assets/33f648d4-eaf9-48e5-82fe-4718b667c3ee" width="300" />
- | <img src="https://github.com/user-attachments/assets/f12cca77-a70d-4268-a022-55c42fbdda10" width="300"> |
+| Residents | <img src="https://github.com/user-attachments/assets/33f648d4-eaf9-48e5-82fe-4718b667c3ee" width="300" > | <img src="https://github.com/user-attachments/assets/f12cca77-a70d-4268-a022-55c42fbdda10" width="300"> |
 | Contact | <img src="https://github.com/user-attachments/assets/0a9f1ba4-0687-4cc3-afe4-6a440f3a074d" width="300"> | <img src="https://github.com/user-attachments/assets/fee7b71f-5100-48ae-bdfd-0f0ff29b19d3" width="300"> |
 
 <br>
@@ -124,7 +123,8 @@ These design decisions ensure visitors can quickly access information regardless
 | Events | <img src="https://github.com/user-attachments/assets/8893134e-717f-4c8e-a051-b862b535816a" width="250"> | <img src="https://github.com/user-attachments/assets/bdf13c97-9888-467f-a25d-fdcef1290c40" width="250"> |
 | Residents | <img src="https://github.com/user-attachments/assets/74b9791b-e193-4ced-ac9c-e35ffea32c7d" width="250"> | <img src="https://github.com/user-attachments/assets/4dd4ed6e-89ed-41b9-b2e8-c11ede753d93" width="250"> |
 | Contact | <img src="https://github.com/user-attachments/assets/f89d9567-d504-4ddb-b0fa-9fb35e33c74f" width="250"> | <img src="https://github.com/user-attachments/assets/b4d17f0b-2dc1-4d7f-b6f6-e18db7448211" width="250"> |
-| Hamburger | <img src="https://github.com/user-attachments/assets/38bed5eb-0ddb-4dc5-8bee-d4b65b7e93c3" width="250"> | <img src="https://github.com/user-attachments/assets/d0db0a4c-847b-4200-a2f8-47b69fb6e91f" width="250"> |
+| Hamburger | <img src="https://github.com/user-attachments/assets/38bed5eb-0ddb-4dc5-8bee-d4b65b7e93c3" width="250"> | <img src="https://github.com/user-attachments/assets/23be28d1-5710-4186-9691-045591365f5b" width="250" >
+ |
 
 <br>
 
@@ -181,6 +181,64 @@ Optimised for:
 
 ## Technoligies Used
 
+### Languages
+- HTML5
+  - Used to create the semantic structure of the website.
+- CSS3
+  - Used for styling, responsive layouts, animations, and custom components.
+- JavaScript (ES6)
+  - Used to create interactive features including the navigation menu, event filtering, modals, and form validation.
+
+### Frameworks & Libraries
+- Bootstrap 5
+  - Used for the responsive navigation bar and layout utilities.
+- Font Awesome
+  - Used for social media icons and interface icons.
+- Google Fonts
+  - Used to import the Bebas Neue and Roboto font families.
+
+### Tools
+- Visual Studio Code
+  - Main code editor used throughout development.
+- Git
+  - Used for version control.
+- GitHub
+  - Used to host the repository and manage version history.
+- GitHub Pages
+  - Used to deploy the live website.
+
+### Design
+- Figma
+  - Used to plan layouts and design ideas.
+- Coolors
+  - Used to develop the website colour palette.
+
+### Validation & Testing
+- W3C HTML Validator
+- W3C CSS Validator
+- Lighthouse
+- Chrome DevTools
+
+### CSS Techniques
+
+- **CSS Grid**
+  - Used to create responsive page layouts and organise content into flexible grid structures.
+
+- **Flexbox**
+  - Used to align and distribute elements efficiently throughout the website.
+
+- **CSS Variables**
+  - Used to maintain consistent colours and styling while making the stylesheet easier to manage.
+
+- **Media Queries**
+  - Used to adapt the layout and styling for different screen sizes and devices.
+
+- **CSS Transitions & Hover Effects**
+  - Used to create smooth animations and improve user interaction and visual feedback.
+
+- **Responsive Design (Mobile First)**
+  - The website was developed using a mobile-first approach to ensure an accessible and consistent experience across all device sizes.
+
 
 ## Testing
 
@@ -214,7 +272,48 @@ You can read more in depth about how I tested this application by reading the [T
 
 ## Deployment
 
-### How to Deploy this Application
+This project was deployed using **GitHub Pages**.
+
+### Deploying to GitHub Pages
+
+To deploy the website:
+
+1. Log in to GitHub and navigate to the project's repository.
+2. Select the **Settings** tab.
+3. In the left-hand menu, click **Pages**.
+4. Under **Build and deployment**, ensure the **Source** is set to **Deploy from a branch**.
+5. Select the **main** branch.
+6. Set the folder to **/(root)**.
+7. Click **Save**.
+8. GitHub will begin deploying the website. After a few moments, a live URL will be generated at the top of the GitHub Pages settings page.
+
+
+### Forking the Repository
+
+To create your own copy of this repository:
+
+1. Log in to GitHub.
+2. Navigate to the repository.
+3. Click the **Fork** button in the top-right corner.
+4. GitHub will create a copy of the repository under your own account.
+
+
+### Cloning the Repository
+
+To clone the repository locally:
+
+1. Log in to GitHub and navigate to the repository.
+2. Click the green **Code** button.
+3. Copy the HTTPS URL.
+4. Open your preferred IDE or terminal.
+5. Navigate to the directory where you would like to store the project.
+6. Run the following command:
+
+```bash
+git clone https://github.com/tyrkgithub/milestone-1.git
+```
+
+7. Once cloned, open the project folder in your preferred code editor.
 
 
 ## Credits
